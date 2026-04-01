@@ -29,8 +29,9 @@ function changeGreet(){
     let greet = "namaste";  // function scope
     console.log(greet);
     function innerGreet(){
-        console.log(greet) // lexical scope
+        console.log(greet) // lexical scope,  but ye run nahi hoga kyunki hame innergreet(); ko kabhi call hi nahi kiya 
     }
 }
 console.log(greet);
 changeGreet();
+//
