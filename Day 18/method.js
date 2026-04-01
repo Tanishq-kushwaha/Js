@@ -3,11 +3,11 @@ const calculate = {
     add: function (a, b) {
         return a + b;
     },
-    sub:  function (a, b){
+    sub: function (a, b) {
         return a - b;
     },
-    mul: function (a, b){
+    mul: function (a, b) {
         return a * b;
     }
 };
-calculate.add(1,2);
+calculate.add(1, 2);
