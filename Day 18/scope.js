@@ -10,13 +10,13 @@
 // lexical scope
 // Ek function apne andar banaye gaye variables ko toh use kar hi sakta hai, par wo apne se bahar banaye gaye variables ko bhi access kar sakta hai. Lekin, bahar wala code andar ke variables ko nahi dekh sakta.
 
-function outerFunc(){
+function outerFunc() {
     let x = 5;
     let y = 6;
-     function innerFunc(){
+    function innerFunc() {
         console.log(x);
-     }
-     innerFunc(); // isko hatya to 5 print nahi hoga 
+    }
+    innerFunc(); // isko hatya to 5 print nahi hoga 
 }
 outerFunc(); // isko hatya to outer function nahi chlega aur inner function bhi nahi chlega 
 
@@ -25,13 +25,25 @@ outerFunc(); // isko hatya to outer function nahi chlega aur inner function bhi 
 // what will be the output?
 
 let greet = "hello";  // global scope
-function changeGreet(){
+function changeGreet() {
     let greet = "namaste";  // function scope
     console.log(greet);
-    function innerGreet(){
+    function innerGreet() {
         console.log(greet) // lexical scope,  but ye run nahi hoga kyunki hame innergreet(); ko kabhi call hi nahi kiya 
     }
 }
 console.log(greet);
 changeGreet();
-//
+// ans 
+// 'hello'
+// 'namste'
+
+// function expression
+
+const sum = function (a, b){ 
+    return a + b;
+}
+sum(2, 3); // yahan sum veriabl name hai function name nahi 
+
+
+
