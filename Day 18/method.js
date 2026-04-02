@@ -11,3 +11,4 @@ const calculate = {
     }
 };
 calculate.add(1, 2);
+console.log(calculate.sub(10, 5));
