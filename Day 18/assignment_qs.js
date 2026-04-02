@@ -44,4 +44,4 @@ function getUnique(str){
     }
     return ans;
 } 
-getUnique();
+console.log(getUnique(str));
