@@ -32,16 +32,25 @@ shortArr(20);
 // question 2
 //  write a javascript function to extract unique characters from a string
 // example str = "abcdabcdefgggh"
-    //   ans = "abcdefgh"
+//   ans = "abcdefgh"
 
 let str = "abcdabcdefgggh";
-function getUnique(str){
+function getUnique(str) {
     let ans = "";
-    for(let i = 0; i < str.length; i++){
-        if(ans.indexOf(str[i]) == -1){
-            ans = ans + str[i];
+    for (let i = 0; i < str.length; i++) {
+        let char = str[i];
+        if (ans.indexOf(char) == -1) {
+            ans += char;
         }
     }
     return ans;
-} 
+}
 console.log(getUnique(str));
+
+// without using indexOf
+function getUniquee(str) {
+    let ans1 = "";
+    for (let i = 0; i < str.length; i++) {
+       let char1
+    }
+}
