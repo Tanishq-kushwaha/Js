@@ -51,6 +51,17 @@ console.log(getUnique(str));
 function getUniquee(str) {
     let ans1 = "";
     for (let i = 0; i < str.length; i++) {
-       let char1
+        let char1 = str[i];
+        let isFound = false;
+        for (let j = 0; j < ans1.length; j++) {
+            if (char1 == ans1[j]) {
+                isFound = true;
+            }
+        }
+        if (isFound == false) {
+            ans1 += char1;
+        }
     }
+    return ans1;
 }
+console.log(getUniquee(str));
