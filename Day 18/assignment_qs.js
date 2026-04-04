@@ -65,3 +65,7 @@ function getUniquee(str) {
     return ans1;
 }
 console.log(getUniquee(str));
+
+// write a javascript function that accepts a list of country names as input and return the longest country name as output 
+// example country = ["Australia","germany","united states of America"]
+// output "United states of america"
