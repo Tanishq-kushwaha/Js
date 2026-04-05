@@ -115,7 +115,7 @@ let stat = 100;
 let end = 200;
 
 function theRange(start, end) {
-    diff = end - start + 1;
+    let diff = end - start + 1;
     return ans = Math.floor(Math.random() * diff) + start;
 }
 console.log(theRange(100, 2000));
