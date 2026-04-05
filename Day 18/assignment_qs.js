@@ -70,11 +70,18 @@ console.log(getUniquee(str));
 // example country = ["Australia","germany","united states of America"]
 // output "United states of america"
 
-let county =  ["Australia","germany","united states of America"];
+let country = ["Australia", "germany", "united states of America"];
 
-function longestName(country){
-  let ansIdx = 0;
-  for(let i = 0; i < country.length; i++ ){
-    let 
-  }
+function longestName(country) {
+    let ansIdx = 0;  // maan liya 0 index wala string sabse bada hai .
+    for (let i = 0; i < country.length; i++) { // ik ik karke har ik string ko check kiya
+        let ansLen = country[ansIdx].length; // jo bada hai uski length
+        let currLen = country[i].length; // jis string ko check kar rahe uski length
+        if(currLen > ansLen){ // kya naya wala string purane se bada hai 
+            ansIdx = i ;  // agar hai to uski valu update kar do 
+        }
+    }
+    return country[ansIdx]; 
 } 
+console.log(
+longestName(country));
