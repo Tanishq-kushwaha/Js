@@ -107,3 +107,15 @@ function getVowels(string) {
     return ans;
 }
 console.log(getVowels(string));
+
+
+// write a java script function to genrate a randome no within a range (start,end)
+
+let stat = 100;
+let end = 200;
+
+function theRange(start, end){
+    diff = end - start + 1;
+ return   ans = Math.floor(Math.random()* diff) + start;
+}
+console.log(theRange(100, 2000));
