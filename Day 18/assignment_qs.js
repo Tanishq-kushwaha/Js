@@ -93,5 +93,17 @@ let string = "Tanishq";
 
 function getVowels(string) {
     let ans = 0;
-    for (let i = 0; )
+    for (let i = 0; i < string.length; i++ ){
+        if(
+            string.charAt(i) == "a" ||
+            string.charAt(i) == "e" ||
+            string.charAt(i) == "i" ||
+            string.charAt(i) == "o" ||
+            string.charAt(i) == "u" 
+        ){
+            ans++;
+        }
+    }
+    return ans;
 }
+console.log(getVowels(string));
