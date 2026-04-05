@@ -93,14 +93,14 @@ let string = "Tanishq";
 
 function getVowels(string) {
     let ans = 0;
-    for (let i = 0; i < string.length; i++ ){
-        if(
+    for (let i = 0; i < string.length; i++) {
+        if (
             string.charAt(i) == "a" ||
             string.charAt(i) == "e" ||
             string.charAt(i) == "i" ||
             string.charAt(i) == "o" ||
-            string.charAt(i) == "u" 
-        ){
+            string.charAt(i) == "u"
+        ) {
             ans++;
         }
     }
@@ -114,8 +114,8 @@ console.log(getVowels(string));
 let stat = 100;
 let end = 200;
 
-function theRange(start, end){
+function theRange(start, end) {
     diff = end - start + 1;
- return   ans = Math.floor(Math.random()* diff) + start;
+    return ans = Math.floor(Math.random() * diff) + start;
 }
 console.log(theRange(100, 2000));
