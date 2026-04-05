@@ -77,11 +77,21 @@ function longestName(country) {
     for (let i = 0; i < country.length; i++) { // ik ik karke har ik string ko check kiya
         let ansLen = country[ansIdx].length; // jo bada hai uski length
         let currLen = country[i].length; // jis string ko check kar rahe uski length
-        if(currLen > ansLen){ // kya naya wala string purane se bada hai 
-            ansIdx = i ;  // agar hai to uski valu update kar do 
+        if (currLen > ansLen) { // kya naya wala string purane se bada hai 
+            ansIdx = i;  // agar hai to uski valu update kar do 
         }
     }
-    return country[ansIdx]; 
-} 
+    return country[ansIdx];
+}
 console.log(
-longestName(country));
+    longestName(country));
+
+
+// write a java script function to count the number of vowels in a string argument.
+
+let string = "Tanishq";
+
+function getVowels(string) {
+    let ans = 0;
+    for (let i = 0; )
+}
