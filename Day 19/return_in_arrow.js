@@ -1,0 +1,1 @@
+// const func = (arg1 , arg2 _ _ _) => {value}
