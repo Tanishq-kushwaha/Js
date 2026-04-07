@@ -7,3 +7,5 @@ setTimeout(() => {
 
 console.log("this is ");
 
+// use for API calls
+//  request and response
