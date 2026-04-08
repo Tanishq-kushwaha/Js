@@ -34,9 +34,9 @@ const obj = {
     name: "tanishq",
     show: function () {
         const inner = () => {
-            console.log(this.name)
+            return this.name;
         };
-        inner();
+         return inner();
     }
 };
 
