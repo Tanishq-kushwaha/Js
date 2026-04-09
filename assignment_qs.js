@@ -1,0 +1,15 @@
+// write an arrow function named arrayAverage that accept an array of numbers and returns the average of those no.
+
+arr = [10, 20, 30];
+
+array = [55, 44, 65, 777, 88, 22, 88, 66];
+
+const arrayAverage = (arr) => {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i]; // sum ki value update kiya 
+    }
+    return sum / arr.length;
+}
+
+console.log(arrayAverage(array));
