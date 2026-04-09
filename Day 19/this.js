@@ -12,7 +12,7 @@ const student = {
     }
 };
 
-student.getAvg();
+console.log(student.getAvg());
 
 
 //  object ke andar
