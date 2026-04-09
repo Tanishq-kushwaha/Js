@@ -18,10 +18,10 @@ console.log(arrayAverage(array));
 // write an arrow function named isEven() that takes a single number as argument and return if is even or not.
 
 let num = 25;  // 8, 4 any no.
-const isEven = (num) =>{
-    if((num % 2) == 0){
+const isEven = (num) => {
+    if ((num % 2) == 0) {
         return true;
-    }else {
+    } else {
         return false;
     }
 };
