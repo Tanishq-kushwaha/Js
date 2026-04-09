@@ -1,16 +1,16 @@
 
-const student ={
-    name : "tanishq",
+const student = {
+    name: "tanishq",
     age: 23,
     eng: 95,
     math: 93,
     phy: 97,
-    getAvg(){
+    getAvg() {
         console.log(this);
-        let avg = (this.eng + this.math + this.phy)/3;
-         console.log(`${this.name}, got avg marks = ${avg}` );
+        let avg = (this.eng + this.math + this.phy) / 3;
+        return `${this.name}, got avg marks = ${avg}`;
     }
-}
+};
 
 student.getAvg();
 
@@ -53,7 +53,7 @@ const obj = {
         const inner = () => {
             return this.name;
         };
-         return inner();
+        return inner();
     }
 };
 
