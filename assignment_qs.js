@@ -31,32 +31,25 @@ isEven(40);
 
 //  what is output of the following
 
-// const object ={
-//     message: 'hello,world',
-//     logMessage(){
-//         console.log(this.message);
-//     }
-// };
-
-// setTimeout(object.logMessage,1000);
-
-
-
-
-const object = {
+const object ={
     message: 'hello,world',
-    logMessage() {
-        console.log("mujhe kisne bulaya:", this);
+    logMessage(){
+        console.log(this.message);
     }
 };
 
-// CASE 1:
-object.logMessage();
-
-// CASE 2:
-setTimeout(object.logMessage, 1000);
+setTimeout(object.logMessage,1000);
 
 
+// object.logMessage();
 
+
+//  what is output of the following code
+
+let length = 4;
+
+function callback(){
+    console.log()
+}
 
 
