@@ -27,3 +27,36 @@ const isEven = (num) => {
 };
 
 isEven(40);
+
+
+//  what is output of the following
+
+// const object ={
+//     message: 'hello,world',
+//     logMessage(){
+//         console.log(this.message);
+//     }
+// };
+
+// setTimeout(object.logMessage,1000);
+
+
+
+
+const object = {
+    message: 'hello,world',
+    logMessage() {
+        console.log("mujhe kisne bulaya:", this);
+    }
+};
+
+// CASE 1:
+object.logMessage();
+
+// CASE 2:
+setTimeout(object.logMessage, 1000);
+
+
+
+
+
