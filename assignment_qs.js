@@ -31,14 +31,14 @@ isEven(40);
 
 //  what is output of the following
 
-const object ={
+const object = {
     message: 'hello,world',
-    logMessage(){
+    logMessage() {
         console.log(this.message);
     }
 };
 
-setTimeout(object.logMessage,1000);
+setTimeout(object.logMessage, 1000);
 
 
 // object.logMessage();
@@ -46,10 +46,17 @@ setTimeout(object.logMessage,1000);
 
 //  what is output of the following code
 
-let length = 4;
+let length = 4;  
 
-function callback(){
-    console.log()
+function callback() {
+    console.log(this.length);
 }
+const object1 = {
+    length: 5,
+    method(callback) {
+        callback();
+    }
+};
 
+object1.method(callback, 1, 2);
 
