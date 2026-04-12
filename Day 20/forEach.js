@@ -15,6 +15,13 @@ arr.forEach(function (el) {
     console.log(el);
 });
 
+// or
+
+
+arr.forEach((el)=> {
+    console.log(el);
+});
+
 
 
 // arrow function
