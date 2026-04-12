@@ -18,7 +18,7 @@ arr.forEach(function (el) {
 // or
 
 
-arr.forEach((el)=> {
+arr.forEach((el) => {
     console.log(el);
 });
 
@@ -28,11 +28,11 @@ arr.forEach((el)=> {
 // let students = ["rohit", " viveek", " puneet"];
 
 let friends = ["Rahul", "Aman", "Priya"];
-const  indexName = (name, i) => {
-        console.log(`${i}, - ${name}`);
+const indexName = (name, i) => {
+    console.log(`${i}, - ${name}`);
 };
 
-friends.forEach(indexName);   
+friends.forEach(indexName);
 
 
 // Maan lo tumhare paas ek numbers ka array hai:
@@ -46,13 +46,36 @@ friends.forEach(indexName);
 
 let numbers = [2, 4, 6];
 const square = (el) => {
-   console.log(el*el);
+    console.log(el * el);
 }
 
 numbers.forEach(square);
 
 
+let array = [
+    {
+        name: "tanishq",
+        marks: 100
+    },
+    {
+        name: "krishna",
+        marks: 88
+    },
+    {
+        name: "priya",
+        marks:94.2
+    }
+];
+
+array.forEach((data)=> {
+    console.log(data.marks);
+});
 
 
+let gpa = array.map((data)=>{
+    return data.marks/10;
+});
 
+
+console.log(gpa);
 
