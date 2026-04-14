@@ -8,3 +8,14 @@ let double = num.map(function (el) {
 });
 
 console.log(double);
+
+
+
+
+let numbers = [2, 4, 6];
+
+let result = numbers.map((el) => {
+    return el * el;
+});
+
+console.log(result);
