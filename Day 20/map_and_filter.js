@@ -33,3 +33,28 @@ let updatedSalaries = salaries.map((salary) => {
     return (salary * 1.1);
 });
 console.log(updatedSalaries);
+
+
+
+// let newArr = arr.filter(some function definition and name );
+
+let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+
+let even = nums.filter((num) => {
+    return (num % 2 == 0);
+});
+
+console.log(even);
+
+// Maan lo meri ek badi e-commerce company hai, aur humare paas products ke prices  ki ek list hai:
+
+let prices = [150, 400, 800, 50, 1200];
+
+// As a billionaire strategist, main chahti hoon ki hum apna marketing budget sirf apne Premium Products par lagayein. Premium products wo hain jinka price 500 ya usse zyada hai.
+
+
+let premiumProducts = prices.filter((price) => {
+    return (prise >= 500);
+});
+
+console.log(premiumProducts);
