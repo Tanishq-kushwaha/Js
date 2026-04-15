@@ -58,3 +58,16 @@ console.log(even);
 // });
 
 // console.log(premiumProducts);
+
+
+// Method Chaining
+
+let prices = [150, 400, 800, 50, 1200];
+
+let saleProduct = prices.filter((price) => {
+    return (price >= 500);
+}).map((price) => {
+    return (price * 0.9);
+});
+
+console.log(saleProduct);
