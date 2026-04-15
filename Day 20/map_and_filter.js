@@ -48,13 +48,13 @@ console.log(even);
 
 // Maan lo meri ek badi e-commerce company hai, aur humare paas products ke prices  ki ek list hai:
 
-let prices = [150, 400, 800, 50, 1200];
+// let prices = [150, 400, 800, 50, 1200];
 
 // As a billionaire strategist, main chahti hoon ki hum apna marketing budget sirf apne Premium Products par lagayein. Premium products wo hain jinka price 500 ya usse zyada hai.
 
 
-let premiumProducts = prices.filter((price) => {
-    return (prise >= 500);
-});
+// let premiumProducts = prices.filter((price) => {
+//     return (price >= 500);
+// });
 
-console.log(premiumProducts);
+// console.log(premiumProducts);
