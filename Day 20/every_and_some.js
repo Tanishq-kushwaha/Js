@@ -13,8 +13,16 @@ console.log(data2);
 // Humare paas aaye hue users ki ages ka ek data hai:
 
 
+// let userAges = [21, 25, 19, 17, 30];
+
+// let isAllAdults = userAges.every((age) => (el >= 18));
+
+// console.log(isAllAdults);
+
+
+// some method
+
 let userAges = [21, 25, 19, 17, 30];
+let hasDiscount = userAges.some((age) => (age >= 30));
 
-let isAllAdults = userAges.every((age) => (el >= 18));
-
-console.log(isAllAdults);
+console.log(hasDiscount);
