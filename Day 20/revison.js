@@ -19,7 +19,7 @@ console.log(square);
 let array = ["hello", "world", "js"];
 
 let upper = array.map((str) => {
-     return str.toUpperCase();
+    return str.toUpperCase();
 });
 
 console.log(upper);
@@ -31,7 +31,18 @@ console.log(upper);
 
 let numbers = [5, 12, 3, 18, 7, 25];
 
-let grater = numbers.filter((num)=>{
-    return (num>=10);
+let grater = numbers.filter((num) => {
+    return (num >= 10);
 });
 console.log(grater);
+
+// Q4 — some
+// ["cat", "dog", "elephant"] — check karo ki koi string 5 se zyada characters ki hai.
+
+
+let animals = ["cat", "dog", "elephant"];
+let char = animals.some((el) => {
+        return el.length > 5;
+});
+
+console.log(char);
