@@ -30,3 +30,8 @@ console.log(upper);
 
 
 let numbers = [5, 12, 3, 18, 7, 25];
+
+let grater = numbers.filter((num)=>{
+    return (num>=10);
+});
+console.log(grater);
