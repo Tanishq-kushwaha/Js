@@ -42,7 +42,18 @@ console.log(grater);
 
 let animals = ["cat", "dog", "elephant"];
 let char = animals.some((el) => {
-        return el.length > 5;
+    return el.length > 5;
 });
 
 console.log(char);
+
+
+// Q5 — every
+// [2, 4, 6, 8, 10] — check karo ki saare numbers even hain.
+
+let number1 = [2, 4, 6, 8, 10];
+let value = number1.every((num) => {
+    return num % 2 == 0;
+});
+
+console.log(value);
