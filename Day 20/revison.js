@@ -78,3 +78,14 @@ let stock = products.filter(item => item.available).map(item => item.name.toUppe
 
 console.log(stock);
 
+
+
+// [18, 21, 15, 30] — dono batao: kya koi 18 se chota hai? Kya sab 18+ hain?
+
+let ages = [18, 21, 15, 30];
+let adult = ages.every(age => age >= 18);
+console.log("kya sab 18+ hai", adult);
+let minor = ages.some(age => age < 18);
+console.log("kya koi minor hai", minor);
+
+
