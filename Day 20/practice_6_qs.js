@@ -16,3 +16,20 @@ let arr = [1, 2, 30, 40, 50,];
 
 let ans = arr.every((el) => el % 10 == 0);
 console.log(ans);
+
+// create a function for find the min no. in an array
+
+function getMin(nums) {
+    let min = nums.reduce((min, el) => {
+        if (min < el) {
+            return min;
+        } else {
+            return el;
+        }
+    });
+    return min;
+}
+
+console.log(getMin(arr));
+
+
