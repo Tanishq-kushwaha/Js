@@ -26,3 +26,23 @@ let salesTeam = ["Priya", "Neha"];
 let allStars = [...techTeam, ...salesTeam];
 
 console.log(...allStars);
+
+// object spread
+
+let basicInfo = {
+    name: "Tanishq",
+    role: "Developer"
+};
+let contactInfo = { 
+    email: "tanishq@company.com",
+    phone: "9876543210" 
+};
+
+// Mujhe Spread operator (...) ka use karke ek naya object {} banakar dikhao jiska naam ho completeProfile. Is ek object ke andar basicInfo aur contactInfo dono ka data merge hona chahiye. End mein usey console.log karo.
+
+let completeProfile = {
+   ...basicInfo,
+   ...contactInfo
+};
+
+console.log(completeProfile);
