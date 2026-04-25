@@ -33,16 +33,16 @@ let basicInfo = {
     name: "Tanishq",
     role: "Developer"
 };
-let contactInfo = { 
+let contactInfo = {
     email: "tanishq@company.com",
-    phone: "9876543210" 
+    phone: "9876543210"
 };
 
 // Mujhe Spread operator (...) ka use karke ek naya object {} banakar dikhao jiska naam ho completeProfile. Is ek object ke andar basicInfo aur contactInfo dono ka data merge hona chahiye. End mein usey console.log karo.
 
 let completeProfile = {
-   ...basicInfo,
-   ...contactInfo
+    ...basicInfo,
+    ...contactInfo
 };
 
 console.log(completeProfile);
@@ -61,3 +61,14 @@ let apiResponse = {
     role: "Lead Developer",
     status: "Active"
 };
+
+// Task:
+// As a lead developer, tumhe is object mein se sirf username aur token ki zaroorat hai aage ka system chalane ke liye.
+// Mujhe Destructuring ka use karke ek hi line mein in dono ko nikal kar dikhao, aur uske baad dono ko console.log karo.
+
+// (Hint: Koi dot . notation use nahi karni hai. Ek single line mein curly braces {} ka use karke variables banane hain).
+
+
+let { username, token } = apiResponse;
+
+console.log(username, token);
