@@ -83,3 +83,9 @@ let newNum = [...num];
  
 newNum.push(-1);// The original num array remained unchanged, but its copy array was changed.
 
+let char = [..."hello"];
+
+
+let word = "hello";
+let word1 = "world";
+console.log(...word, ...word1);
