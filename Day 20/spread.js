@@ -72,3 +72,14 @@ let apiResponse = {
 let { username, token } = apiResponse;
 
 console.log(username, token);
+
+
+// spread array literals
+
+let num = [1,2,3,4,5,6,7,8,9,0];
+
+let newNum = [...num];
+
+ 
+newNum.push(-1);// The original num array remained unchanged, but its copy array was changed.
+
