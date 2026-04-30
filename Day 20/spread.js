@@ -76,11 +76,11 @@ console.log(username, token);
 
 // spread array literals
 
-let num = [1,2,3,4,5,6,7,8,9,0];
+let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 
 let newNum = [...num];
 
- 
+
 newNum.push(-1);// The original num array remained unchanged, but its copy array was changed.
 
 let char = [..."hello"];
@@ -89,3 +89,15 @@ let char = [..."hello"];
 let word = "hello";
 let word1 = "world";
 console.log(...word, ...word1);
+
+
+// spread (object literals)
+
+const data = {
+    email: "ironman@gmail.com",
+    password: "12345678",
+};
+
+const copyData = { ...data, id: "tanix_ku" };
+
+
