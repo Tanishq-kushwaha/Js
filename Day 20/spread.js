@@ -101,3 +101,12 @@ const data = {
 const copyData = { ...data, id: "tanix_ku" };
 
 
+
+let array1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];//value
+
+let object = { ...array1 }; // object -> key : value,
+
+let object1 = {..."Tanishq kushwaha"};
+
+
+
