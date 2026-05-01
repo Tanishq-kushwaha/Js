@@ -25,4 +25,4 @@ let [bestEmployee, ...regularEmployee] = topPerformers;
 
 console.log(bestEmployee);//Rahul
 
-console.log(regularEmployee);//(4) ['Aman', 'Priya', 'Neha', 'Karan']
+console.log(regularEmployees);//(4) ['Aman', 'Priya', 'Neha', 'Karan']
