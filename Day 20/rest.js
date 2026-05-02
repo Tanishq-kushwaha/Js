@@ -62,5 +62,15 @@ let developersOnly = employees.filter((emp)=> emp.role === "Developer");
 
 // Storage this new array in a variable called developerNames and write the code. Let's see how quickly you can extract specific data from objects!
 
-let developerNames = developersOnly.map((emp)=> emp.name);
 
+
+
+// The company's finance head came to me. He said: "Ask Tanishq, if we pay salaries to all the company's employees (not just developers, but the entire original employee array) today, how much money will be deducted from the company's account?"
+
+
+// Task:
+// You need to use the reduce method to add all the salaries from this entire data set to get a single total. Store this total in a variable called totalSalary.
+
+// (Golden Hint: Remember to add only the salary of the current element (emp) to the accumulator (total), not the entire object! And don't forget what the initial value of the vault should be.)
+
+// If you cracked this without any help, I'll consider your foundation rock solid. Focus and write the code!
