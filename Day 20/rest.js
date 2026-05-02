@@ -37,7 +37,21 @@ function min(...args) {
         } else {
             return min;
         }
-    }); 
+    });
 }
 
-min(98,32,43,54,0,-1);
+min(98, 32, 43, 54, 0, -1);
+
+
+// Maan lo tum meri tech company ke Lead Developer ho aur humare paas API se yeh data aaya hai:
+
+let employees = [
+    { id: 101, name: "Rahul", role: "Developer", salary: 50000 },
+    { id: 102, name: "Neha", role: "Designer", salary: 45000 },
+    { id: 103, name: "Aman", role: "Developer", salary: 60000 },
+    { id: 104, name: "Priya", role: "Manager", salary: 80000 }
+];
+
+// Mujhe is poore data mein se sirf un employees ka poora object alag nikal kar do, jinka role "Developer" hai. Is result ko ek naye variable developersOnly mein store karo.
+
+let developerOnly = employees.filter((emp)=> emp.role === "Developer");
