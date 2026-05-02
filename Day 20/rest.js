@@ -54,7 +54,7 @@ let employees = [
 
 //I need to extract the entire object from this entire data set containing only those employees whose role is "Developer". Store this result in a new variable called developersOnly.
 
-let developersOnly = employees.filter((emp)=> emp.role === "Developer");
+let developersOnly = employees.filter((emp) => emp.role === "Developer");
 
 // Now you've received a message from the HR department. They don't care about the salaries or IDs of these developers. They need a meeting and they strictly need a list of these developers' names (e.g., ['Rahul', 'Aman']).
 
@@ -74,3 +74,7 @@ let developersOnly = employees.filter((emp)=> emp.role === "Developer");
 // (Golden Hint: Remember to add only the salary of the current element (emp) to the accumulator (total), not the entire object! And don't forget what the initial value of the vault should be.)
 
 // If you cracked this without any help, I'll consider your foundation rock solid. Focus and write the code!
+
+let allEmpSalary = employees.map((emp) => emp.salary);// creating a array for all emp salary.
+
+let totalSalary = allEmpSalary.reduce((firstEmp, nextEmp) => firstEmp + nextEmp, 0); // total of all employee salary
