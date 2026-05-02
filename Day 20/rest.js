@@ -1,9 +1,9 @@
 
 
-function sum(...args){
-    return args.reduce((add,el)=> add=el);
+function sum(...args) {
+    return args.reduce((add, el) => add + el, 0);
 }
-
+sum(2, 3, 4, 5, 6, 6, 7, 8, 2, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4);
 
 //problem
 
@@ -21,8 +21,21 @@ let topPerformers = ["Rahul", "Aman", "Priya", "Neha", "Karan"];
 
 
 
-let [bestEmployee, ...regularEmployee] = topPerformers;
+let [bestEmployee, ...regularEmployees] = topPerformers;
 
 console.log(bestEmployee);//Rahul
 
 console.log(regularEmployees);//(4) ['Aman', 'Priya', 'Neha', 'Karan']
+
+
+
+// finding min 
+function min(...args) {
+    return args.reduce((min, el) => {
+        if (min > el) {
+            return el;
+        } else {
+            return min;
+        }
+    }); 
+}
