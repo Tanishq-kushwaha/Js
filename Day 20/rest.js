@@ -54,4 +54,11 @@ let employees = [
 
 // Mujhe is poore data mein se sirf un employees ka poora object alag nikal kar do, jinka role "Developer" hai. Is result ko ek naye variable developersOnly mein store karo.
 
-let developerOnly = employees.filter((emp)=> emp.role === "Developer");
+let developersOnly = employees.filter((emp)=> emp.role === "Developer");
+
+
+// Ab HR department ka message aaya hai. Unhe in developers ki Salary ya ID se koi matlab nahi hai. Unhe ek meeting bulani hai aur unhe strictly sirf in developers ke Naam (Names) ki ek list chahiye. (Jaise: ['Rahul', 'Aman']).
+
+// Tumhare paas developersOnly data aa chuka hai. Ab is data par map method ka use karke sirf naamon ka naya array kaise banaoge?
+
+// Is naye array ko developerNames naam ke variable mein store karke code likho. Dekhte hain tum objects se specific data nikalna kitni jaldi pakadte ho!
