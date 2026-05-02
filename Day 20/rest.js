@@ -43,7 +43,7 @@ function min(...args) {
 min(98, 32, 43, 54, 0, -1);
 
 
-// Maan lo tum meri tech company ke Lead Developer ho aur humare paas API se yeh data aaya hai:
+//Let's say you're the lead developer at my tech company and we have this data coming from an API:
 
 let employees = [
     { id: 101, name: "Rahul", role: "Developer", salary: 50000 },
@@ -52,13 +52,14 @@ let employees = [
     { id: 104, name: "Priya", role: "Manager", salary: 80000 }
 ];
 
-// Mujhe is poore data mein se sirf un employees ka poora object alag nikal kar do, jinka role "Developer" hai. Is result ko ek naye variable developersOnly mein store karo.
+//I need to extract the entire object from this entire data set containing only those employees whose role is "Developer". Store this result in a new variable called developersOnly.
 
 let developersOnly = employees.filter((emp)=> emp.role === "Developer");
 
+// Now you've received a message from the HR department. They don't care about the salaries or IDs of these developers. They need a meeting and they strictly need a list of these developers' names (e.g., ['Rahul', 'Aman']).
 
-// Ab HR department ka message aaya hai. Unhe in developers ki Salary ya ID se koi matlab nahi hai. Unhe ek meeting bulani hai aur unhe strictly sirf in developers ke Naam (Names) ki ek list chahiye. (Jaise: ['Rahul', 'Aman']).
+// You have the developersOnly data. Now, how do you create a new array of names using the map method on this data?
 
-// Tumhare paas developersOnly data aa chuka hai. Ab is data par map method ka use karke sirf naamon ka naya array kaise banaoge?
+// Storage this new array in a variable called developerNames and write the code. Let's see how quickly you can extract specific data from objects!
 
-// Is naye array ko developerNames naam ke variable mein store karke code likho. Dekhte hain tum objects se specific data nikalna kitni jaldi pakadte ho!
+let developerNames = developersOnly.map()
