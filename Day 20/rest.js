@@ -62,4 +62,5 @@ let developersOnly = employees.filter((emp)=> emp.role === "Developer");
 
 // Storage this new array in a variable called developerNames and write the code. Let's see how quickly you can extract specific data from objects!
 
-let developerNames = developersOnly.map()
+let developerNames = developersOnly.map((emp)=> emp.name);
+
