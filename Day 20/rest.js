@@ -75,6 +75,11 @@ let developersOnly = employees.filter((emp) => emp.role === "Developer");
 
 // If you cracked this without any help, I'll consider your foundation rock solid. Focus and write the code!
 
-let allEmpSalary = employees.map((emp) => emp.salary);// creating a array for all emp salary.
+// let allEmpSalary = employees.map((emp) => emp.salary);// creating a array for all emp salary.
 
-let totalSalary = allEmpSalary.reduce((firstEmp, nextEmp) => firstEmp + nextEmp, 0); // total of all employee salary
+// let totalSalary = allEmpSalary.reduce((firstEmp, nextEmp) => firstEmp + nextEmp, 0); // total of all employee salary
+
+
+
+let allEmpSalary = employees.reduce((total, emp) => total + emp.salary, 0);
+console.log("Total of all employee salary =", allEmpSalary);
