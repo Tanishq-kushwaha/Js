@@ -24,3 +24,10 @@ let laptop = {
 
 let { specs: { processor } } = laptop;
 console.log(processor);
+
+// Let's say this is the server data from our company's API:
+let serverResponse = {
+    db_connection_status: "Active",
+    ping_ms: 12
+};
+// I need to destructure db_connection_status from this, but I want this new variable to be named just status in my code to keep it short and clean.
