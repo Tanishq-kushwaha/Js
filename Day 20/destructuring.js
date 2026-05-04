@@ -36,4 +36,6 @@ let serverResponse = {
 };
 // I need to destructure db_connection_status from this, but I want this new variable to be named just status in my code to keep it short and clean.
 
-// solution
+// Destructure db_connection_status as status.
+let { db_connection_status: status } = serverResponse;
+console.log(status);
