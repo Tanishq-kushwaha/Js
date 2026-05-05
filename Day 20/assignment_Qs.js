@@ -5,3 +5,5 @@ let arr = [1, 2, 3, 4, 5];
 let square = arr.map((el) => el * el);
 console.log(square);
 
+let arrSum = arr.reduce((el, next)=> el+next,0);
+console.log(arrSum);
