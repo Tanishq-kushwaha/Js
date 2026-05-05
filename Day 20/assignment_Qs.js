@@ -40,3 +40,6 @@ let words = ["focus", "hustle", "code", "win"];
 
 let loudWords = words.map((word) => word.toUpperCase());
 console.log(loudWords);// ['FOCUS', 'HUSTLE', 'CODE', 'WIN']
+
+// if provided array have numbers than how can  collect  string and covert into uppercase
+let mixedData = [10, "focus", 42, "hustle", "win", 99];
