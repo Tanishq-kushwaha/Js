@@ -46,4 +46,4 @@ let mixedData = [10, "focus", 42, "hustle", "win", 99];
 
 let upperCaseStrings = mixedData.filter((el) => typeof el === "string").map((el) => el.toUpperCase());
 
-console.log(shortedStrings);
+console.log(upperCaseStrings);
