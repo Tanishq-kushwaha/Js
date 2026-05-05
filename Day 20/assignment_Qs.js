@@ -39,4 +39,4 @@ console.log(newArr);// [6, 9, 10, 12, 13, 14, 5, 3, 1, -1, -5]
 let words = ["focus", "hustle", "code", "win"];
 
 let loudWords = words.map((word) => word.toUpperCase());
-console.log(loudWords);
+console.log(loudWords);// ['FOCUS', 'HUSTLE', 'CODE', 'WIN']
