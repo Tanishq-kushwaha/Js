@@ -51,5 +51,8 @@ const student = {
     password: 1234
 };
 const { username: user, password: hiden } = student;
-console.log(user);
+console.log(user);//karan123
+console.log(hiden);//password
+
+
 
