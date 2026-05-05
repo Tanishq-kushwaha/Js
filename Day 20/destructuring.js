@@ -39,3 +39,15 @@ let serverResponse = {
 // Destructure db_connection_status as status.
 let { db_connection_status: status } = serverResponse;
 console.log(status);
+
+
+// Destructuring object 
+const student = {
+    name: karan,
+    class: 9,
+    age: 15,
+    subject: ["hindi", "english", "math", "science", "social science"],
+    username: "karan123",
+    password: 1234
+};
+
