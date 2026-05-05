@@ -44,6 +44,6 @@ console.log(loudWords);// ['FOCUS', 'HUSTLE', 'CODE', 'WIN']
 // if provided array have numbers than how can  collect  string and covert into uppercase
 let mixedData = [10, "focus", 42, "hustle", "win", 99];
 
-let shortedStrings = mixedData.filter((el)=> typeof el === "string" ).map((el)=>  el.toUpperCase());   
+let upperCaseStrings = mixedData.filter((el) => typeof el === "string").map((el) => el.toUpperCase());
 
 console.log(shortedStrings);
