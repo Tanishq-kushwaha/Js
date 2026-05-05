@@ -43,11 +43,13 @@ console.log(status);
 
 // Destructuring object 
 const student = {
-    name: karan,
+    name: "karan",
     class: 9,
     age: 15,
     subject: ["hindi", "english", "math", "science", "social science"],
     username: "karan123",
     password: 1234
 };
+const { username: user, password: hiden } = student;
+console.log(user);
 
