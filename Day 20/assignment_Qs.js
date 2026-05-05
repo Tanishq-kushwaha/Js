@@ -28,3 +28,10 @@ console.log(avg); // Output: 11
 let array = [1, 4, 5, 7, 8, 9, 0, -2, -4, -6, -10];
 let newArr = array.map((el) => el + 5);
 console.log(newArr);// [6, 9, 10, 12, 13, 14, 5, 3, 1, -1, -5]
+
+
+
+
+
+// Qs3. Create a new array whose elements are in uppercase of words present in the
+// original array.
