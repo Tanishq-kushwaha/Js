@@ -35,3 +35,8 @@ console.log(newArr);// [6, 9, 10, 12, 13, 14, 5, 3, 1, -1, -5]
 
 // Qs3. Create a new array whose elements are in uppercase of words present in the
 // original array.
+
+let words = ["focus", "hustle", "code", "win"];
+
+let loudWords = words.map((word) => word.toUpperCase());
+console.log(loudWords);
