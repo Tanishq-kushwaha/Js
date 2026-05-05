@@ -10,3 +10,7 @@ console.log(arrSum);//15
 
 let average = arrSum / arr.length;
 console.log(average);//3
+
+
+// Qs2. Create a new array using the map function whose each element is equal to the
+// original element plus 5.
