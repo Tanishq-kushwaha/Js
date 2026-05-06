@@ -49,3 +49,9 @@ let upperCaseStrings = mixedData.filter((el) => typeof el === "string").map((el)
 console.log(upperCaseStrings);
 
 //Qs4. write a function doubleAndReturnArgs which accepts an array and a variable number of arguments. The function should return a new array with the original array values and all of the additional arguments doubled. 
+
+const doubleAndReturnArgs = (arr, ...args)=>[
+    ...arr,
+    ...args.map((num)=>num*2),
+];
+
