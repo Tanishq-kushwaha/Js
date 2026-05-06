@@ -64,17 +64,18 @@ console.log(doubleAndReturnArgs([1, 2, 3], 1, 2, 3));//[1, 2, 3, 2, 4, 6]
 
 
 const obj1 = {
-    name: "tanishq",
-    collage: "GPK",
-    branch: "IT"
+    name1: "tanishq",
+    collage1: "GPK",
+    branch1: "IT"
 };
 
 const obj2 = {
-    name: "prince",
-    collage: "GPL",
-    branch: "TT"
+    name2: "prince",
+    collage2: "GPL",
+    branch2: "TT"
 };
 
 const mergeObjects = (obj1, obj2) => ({ ...obj1, ...obj2 });
 
 console.log(mergeObjects(obj1, obj2));
+
