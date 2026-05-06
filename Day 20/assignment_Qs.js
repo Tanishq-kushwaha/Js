@@ -55,29 +55,26 @@ const doubleAndReturnArgs = (arr, ...args) => [
     ...args.map((num) => num * 2),
 ];
 
-console.log(doubleAndReturnArgs([1,2,3,4,5,],2,3,4,5,6,));//[1, 2, 3, 4, 5, 4, 6, 8, 10, 12]
+console.log(doubleAndReturnArgs([1, 2, 3, 4, 5,], 2, 3, 4, 5, 6,));//[1, 2, 3, 4, 5, 4, 6, 8, 10, 12]
 
-console.log(doubleAndReturnArgs([1,2,3],1,2,3));//[1, 2, 3, 2, 4, 6]
+console.log(doubleAndReturnArgs([1, 2, 3], 1, 2, 3));//[1, 2, 3, 2, 4, 6]
 
 
 //Qs5. write a function called mergeObjects that accepts two objects and return a new object which contains all the keys and values of the first object and second object 
 
 
 const obj1 = {
-    name:"tanishq",
-    collage:"GPK",
-    branch:"IT"
+    name: "tanishq",
+    collage: "GPK",
+    branch: "IT"
 };
 
 const obj2 = {
-    name:"prince",
-    collage:"GPL",
-    branch:"TT"
+    name: "prince",
+    collage: "GPL",
+    branch: "TT"
 };
 
-const mergeObjects = (obj1, ...obj2)=>{
-     obj1,
-     obj2
-};
+const mergeObjects = (obj1, obj2) => ({ ...obj1, ...obj2 });
 
-console.log(mergeObjects(obj1,obj2));
+console.log(mergeObjects(obj1, obj2));
