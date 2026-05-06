@@ -50,8 +50,12 @@ console.log(upperCaseStrings);
 
 //Qs4. write a function doubleAndReturnArgs which accepts an array and a variable number of arguments. The function should return a new array with the original array values and all of the additional arguments doubled. 
 
-const doubleAndReturnArgs = (arr, ...args)=>[
+const doubleAndReturnArgs = (arr, ...args) => [
     ...arr,
-    ...args.map((num)=>num*2),
+    ...args.map((num) => num * 2),
 ];
+
+console.log(doubleAndReturnArgs([1,2,3,4,5,],2,3,4,5,6,));//[1, 2, 3, 4, 5, 4, 6, 8, 10, 12]
+
+console.log(doubleAndReturnArgs([1,2,3],1,2,3));//[1, 2, 3, 2, 4, 6]
 
