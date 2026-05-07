@@ -35,11 +35,12 @@ const indexName = (name, i) => {
 friends.forEach(indexName);
 
 
-// Maan lo tumhare paas ek numbers ka array hai:
+
+// Suppose you have an array of numbers:
 // let numbers = [2, 4, 6];
 
-// Mujhe ek arrow function ke sath forEach loop likh kar dikhao jo is array ke har number ka square print kare (yani number ko usi number se multiply kare).
-// Output sirf yeh aana chahiye:
+// Show me how to write a forEach loop using an arrow function that prints the square of each number in this array (i.e., multiplies the number by itself).
+// The output should look exactly like this:
 // 4
 // 16
 // 36
