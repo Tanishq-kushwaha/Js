@@ -37,7 +37,7 @@ let contactInfo = {
     phone: "9876543210"
 };
 
-// Mujhe Spread operator (...) ka use karke ek naya object {} banakar dikhao jiska naam ho completeProfile. Is ek object ke andar basicInfo aur contactInfo dono ka data merge hona chahiye. End mein usey console.log karo.
+// Show me how to create a new object named `completeProfile` using the Spread operator (...). This single object should contain the merged data from both `basicInfo` and `contactInfo`. Finally, `console.log` it.
 
 let completeProfile = {
     ...basicInfo,
