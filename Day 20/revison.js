@@ -25,7 +25,7 @@ console.log(upper);
 
 
 // Q3 — filter
-// [5, 12, 3, 18, 7, 25] — sirf 10 se bade numbers ka array banao.
+// [5, 12, 3, 18, 7, 25] — Create an array of numbers greater than 10 only.
 
 
 let numbers = [5, 12, 3, 18, 7, 25];
@@ -36,7 +36,7 @@ let grater = numbers.filter((num) => {
 console.log(grater);
 
 // Q4 — some
-// ["cat", "dog", "elephant"] — check karo ki koi string 5 se zyada characters ki hai.
+// ["cat", "dog", "elephant"] — Check if a string is more than 5 characters long.
 
 
 let animals = ["cat", "dog", "elephant"];
