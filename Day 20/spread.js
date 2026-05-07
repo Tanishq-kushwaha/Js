@@ -17,8 +17,7 @@ console.log(...arr);
 
 
 // Task:
-// Tumhe Spread operator (...) ka use karke ek naya array banana hai jiska naam ho allStars. Us ek array ke andar dono teams ke naam aane chahiye, aur end mein usey console.log karke dikhana hai.
-
+// You need to create a new array named `allStars` using the Spread operator (...). This single array should contain the names of both teams, and finally, you must display it using `console.log`.
 
 let techTeam = ["Rahul", "Aman"];
 let salesTeam = ["Priya", "Neha"];
