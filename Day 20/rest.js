@@ -11,15 +11,13 @@ sum(2, 3, 4, 5, 6, 6, 7, 8, 2, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4);
 let topPerformers = ["Rahul", "Aman", "Priya", "Neha", "Karan"];
 
 // Task:
-// Tumhe Destructuring aur Rest operator ka use karke ek hi line mein yeh kaam karna hai:
+// You need to accomplish the following in a single line using Destructuring and the Rest operator:
 
-// Sabse pehle naam ko ek variable mein dalo jiska naam ho bestEmployee.
+// First, assign the name to a variable named `bestEmployee`.
 
-// Baaki ke saare bache hue naamo ko Rest operator ka use karke ek naye array  mein samet lo, jiska naam ho regularEmployees.
+// Next, gather all the remaining names into a new array named `regularEmployees` using the Rest operator.
 
-// End mein dono ko console.log karke dikhao. (Jaise: console.log(bestEmployee, regularEmployees);)
-
-
+// Finally, log both to the console. (Like this: console.log(bestEmployee, regularEmployees);)
 
 let [bestEmployee, ...regularEmployees] = topPerformers;
 
