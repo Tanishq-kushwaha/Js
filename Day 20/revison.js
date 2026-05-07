@@ -48,7 +48,7 @@ console.log(char);
 
 
 // Q5 — every
-// [2, 4, 6, 8, 10] — check karo ki saare numbers even hain.
+// [2, 4, 6, 8, 10] — Check that all the numbers are even.
 
 let number1 = [2, 4, 6, 8, 10];
 let value = number1.every((num) => {
