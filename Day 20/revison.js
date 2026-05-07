@@ -58,7 +58,7 @@ let value = number1.every((num) => {
 console.log(value);
 
 
-// Neeche diye array me products hain. Sirf available products ka naam nikalo aur uppercase karo. (filter + map chain)
+// The array below contains products. Extract the names of only the available products and convert them to uppercase. (Filter + Map chain)
 
 let products = [{ name: "pen", available: true },
 { name: "book", available: false },
