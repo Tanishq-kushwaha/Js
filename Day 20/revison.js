@@ -79,7 +79,7 @@ console.log(stock);
 
 
 
-// [18, 21, 15, 30] — dono batao: kya koi 18 se chota hai? Kya sab 18+ hain?
+// [18, 21, 15, 30] —Both of you tell me: Is anyone under 18? Is everyone 18+?
 
 let ages = [18, 21, 15, 30];
 let adult = ages.every(age => age >= 18);
