@@ -8,6 +8,6 @@ function sum(a, b = 3) {
     return a + b;
 }
 
-console.log("a ki value apney di but  b ki default value 3 hai is liye jab b ki value nahi dogey to wo automatically 3 hi lega  is liye sum(2) =", sum(2));
+console.log("We provided a specific value for 'a', but the default value for 'b' is 3; therefore, if you do not provide a value for 'b', it will automatically assume the value 3. Hence, sum(2) =", sum(2));
 
-console.log("but jab a aur b dono ki value aab hi decide kare jese sum(2, 4) =",sum(2, 4));
+console.log("But when the function decides the values ​​of both A and B—for instance, `sum(2, 4)` =",sum(2, 4));

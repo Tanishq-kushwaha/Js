@@ -42,12 +42,11 @@ let even = nums.filter((num) => {
 });
 
 console.log(even);
-
-// Maan lo meri ek badi e-commerce company hai, aur humare paas products ke prices  ki ek list hai:
+// Let's assume I own a major e-commerce company, and we have a list of product prices:
 
 // let prices = [150, 400, 800, 50, 1200];
 
-// As a billionaire strategist, main chahti hoon ki hum apna marketing budget sirf apne Premium Products par lagayein. Premium products wo hain jinka price 500 ya usse zyada hai.
+// As a billionaire strategist, I want us to allocate our marketing budget exclusively to our Premium Products. Premium products are those priced at 500 or higher.
 
 
 // let premiumProducts = prices.filter((price) => {
