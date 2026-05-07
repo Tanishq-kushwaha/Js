@@ -1,6 +1,5 @@
 // Q1 — forEach
-// Ek array [10, 20, 30] hai. forEach use karke har number ka square console me print karo.
-
+//There is an array [10, 20, 30]. Use foreach to print the square of each number to the console.
 
 let arr = [10, 20, 30];
 
