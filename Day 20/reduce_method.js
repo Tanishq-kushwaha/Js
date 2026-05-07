@@ -8,14 +8,13 @@ console.log(sum); // sum of all element
 
 
 
-
-// Humari aaj ki aakhri 4 sales ka data yeh hai:
+// Here is the data for our last 4 sales today:
 
 let dailySales = [1000, 2500, 3000, 1500];
 
-// Mujhe reduce method ka use karke ek code likh kar dikhao jo in saari sales ko jod de.
-// Is result ko ek variable totalRevenue mein store karo aur end mein usey console.log karo. Jiska output exact 8000 aana chahiye.
 
+// Write a piece of code using the `reduce` method that sums up all these sales figures.
+// Store the result in a variable named `totalRevenue` and `console.log` it at the end. The output should be exactly 8000.
 
 // let sales = dailySales.reduce((total, sale) => {
 //     return total + sale;
