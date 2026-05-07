@@ -12,7 +12,7 @@ console.log(square);
 
 
 // Q2 — map
-// ["hello", "world", "js"] — map use karke sabhi strings ko uppercase me convert karo.
+// ["hello", "world", "js"] — Convert all strings to uppercase using map.
 
 
 let array = ["hello", "world", "js"];
