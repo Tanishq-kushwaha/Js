@@ -1,6 +1,6 @@
 // map_and_filter
 
-// let newArr = Array.map(some function deffinition or name )
+// let newArr = Array.map(some function definition or name )
 
 let num = [1, 2, 3, 4];
 let double = num.map(function (el) {
@@ -19,15 +19,12 @@ let result = numbers.map((el) => {
 });
 
 console.log(result);
-
-// Maan lo tum meri tech company ke lead developer ho. Humare paas humare top employees  ki current salaries  ka ek data hai:
+// Suppose you are the Lead Developer at my tech company. We have data on the current salaries of our top employees:
 
 let salaries = [50000, 80000, 120000];
+// The company has generated a good profit, and as a strategist, I have decided that we will give a 10% bonus to everyone.
 
-// Company ne acha profit banaya hai aur maine as a strategist decide kiya hai ki hum in sabko 10% bonus denge.
-
-// Tumhe map method ka use karke ek naya array  generate  karna hai, jisme har employee ki salary mein 10% ka increment  add ho gaya ho.
-
+// You need to generate a new array using the `map` method, in which a 10% increment has been added to every employee's salary.
 
 let updatedSalaries = salaries.map((salary) => {
     return (salary * 1.1);
