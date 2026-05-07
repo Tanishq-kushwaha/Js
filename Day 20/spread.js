@@ -51,7 +51,7 @@ console.log(completeProfile);
 
 
 
-//  Humari tech company ke server se ek secure API response aaya hai jisme tumhara data hai:
+// A secure API response has been received from our tech company's server, containing your data:
 
 let apiResponse = {
     userId: 101,
