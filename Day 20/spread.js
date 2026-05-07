@@ -62,11 +62,10 @@ let apiResponse = {
 };
 
 // Task:
-// As a lead developer, tumhe is object mein se sirf username aur token ki zaroorat hai aage ka system chalane ke liye.
-// Mujhe Destructuring ka use karke ek hi line mein in dono ko nikal kar dikhao, aur uske baad dono ko console.log karo.
+// As a lead developer, you only need the username and token from this object to run the system further.
+// Show me how to extract both of these in a single line using destructuring, and then console.log them both.
 
-// (Hint: Koi dot . notation use nahi karni hai. Ek single line mein curly braces {} ka use karke variables banane hain).
-
+// (Hint: No dot . notation should be used. Variables should be created using curly braces {} in a single line).
 
 let { username, token } = apiResponse;
 
