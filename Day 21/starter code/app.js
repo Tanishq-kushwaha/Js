@@ -9,3 +9,14 @@ myDiv.innerText = "hello spider man";
 myDiv.style.backgroundColor = "aqua";
 
 });
+
+// let photo = document.getElementById("mainImg");
+
+let smallImgs = document.getElementsByClassName("oldImg");
+
+for(let i = 0 ; i<smallImgs.length; i++){
+
+ smallImgs[i].src = "assets/spiderman_img.png";
+}
+
+
