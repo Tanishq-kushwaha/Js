@@ -40,3 +40,18 @@ for(let i = 0; i < boxLinks.length; i++){
     boxLinks[i].style.color = "red";
     boxLinks[i].style.backgroundColor = "yellow";
 }
+
+
+
+// Task
+// Your index.html has two paragraphs (<p>). One under the "About" heading and one under "Creation & Development."
+
+// Go to your app.js and write this code without any mistakes:
+
+// Use document.getElementsByTagName to store all these <p> tags in a variable.
+
+// Run a for loop.
+
+// Inside the loop, change the text color of each paragraph to purple or orange.
+
+// Change their font weight (font-weight, written as fontWeight in JS) to "bold."
