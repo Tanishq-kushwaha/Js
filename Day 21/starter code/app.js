@@ -66,7 +66,7 @@ for(let i = 0; i<para.length; i++){
 // Task
 // Your index.html has two <h2> tags: "About" and "Creation & Development".
 
-// Use document.querySelectorAll to select both <h2> tags into a variable. (Remember, no dots or hashes are needed for tags).
+// Use document.querySelectorAll to select both <h2> tags into a variable. 
 
 // Run a for loop.
 
