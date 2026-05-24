@@ -73,3 +73,5 @@ for(let i = 0; i<para.length; i++){
 // Inside the loop, change the text color of each <h2> to blue.
 
 // Change their font size to "30px".
+
+let 
