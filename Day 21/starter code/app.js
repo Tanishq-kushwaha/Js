@@ -3,10 +3,10 @@ let myDiv = document.getElementById("specialDiv");
 let actionButton = document.getElementById("specialButton");
 
 
-actionButton.addEventListener("click", function(){
+actionButton.addEventListener("click", function () {
 
-myDiv.innerText = "hello spider man";
-myDiv.style.backgroundColor = "aqua";
+    myDiv.innerText = "hello spider man";
+    myDiv.style.backgroundColor = "aqua";
 
 });
 
@@ -36,7 +36,7 @@ myDiv.style.backgroundColor = "aqua";
 
 let boxLinks = document.getElementsByClassName("boxLink");
 
-for(let i = 0; i < boxLinks.length; i++){
+for (let i = 0; i < boxLinks.length; i++) {
     boxLinks[i].style.color = "red";
     boxLinks[i].style.backgroundColor = "yellow";
 }
@@ -58,7 +58,7 @@ for(let i = 0; i < boxLinks.length; i++){
 
 let para = document.getElementsByTagName("p");
 
-for(let i = 0; i<para.length; i++){
+for (let i = 0; i < para.length; i++) {
     para[i].style.color = "purple";
     para[i].style.fontWeight = "bold";
 }
@@ -75,8 +75,8 @@ for(let i = 0; i<para.length; i++){
 // Change their font size to "30px".
 
 let headings = document.querySelectorAll("h2");
- for(let i = 0; i<headings.length; i++){
+for (let i = 0; i < headings.length; i++) {
     headings[i].style.color = "blue";
-    
- }
+    headings[i].style.fontSize = "30px";
+}
 
