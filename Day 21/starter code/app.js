@@ -80,3 +80,16 @@ for (let i = 0; i < headings.length; i++) {
     headings[i].style.fontSize = "30px";
 }
 
+
+
+// Task
+
+// You have a <p id="description"> at the bottom of your index.html, whose background color has already been changed.
+
+// At the bottom of your app.js, complete this task:
+
+// Select this #description paragraph using document.getElementById or querySelector.
+
+// First, use console.log(description.innerText) and console.log(description.innerHTML) to see the difference in the browser console.
+
+// Now, use innerHTML to replace the text of that entire paragraph and place a single word in the middle of the new text inside <i> (Italic) or <mark> (Highlight) tags (e.g., "I love coding in <mark>JavaScript</mark>")
