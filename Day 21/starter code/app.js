@@ -101,4 +101,15 @@ console.log(`This is innerText----> ${paragraph.innerText}`);
 
 console.log(`This is innerHtml----> ${paragraph.innerHTML}`);
 
+
+
+// changes in text 
 document.querySelector("#description").innerHTML = "i love coding in <i>javaScript</i>";
+
+
+
+
+// changed text 
+console.log(`This is innerText----> ${paragraph.innerText}`);
+
+console.log(`This is innerHtml----> ${paragraph.innerHTML}`);
