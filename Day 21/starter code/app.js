@@ -37,6 +37,6 @@ myDiv.style.backgroundColor = "aqua";
 let boxLinks = document.getElementsByClassName("boxLink");
 
 for(let i = 0; i < boxLinks.length; i++){
-
+    boxLinks[i].style.color = "red";
     boxLinks[i].style.backgroundColor = "yellow";
 }
