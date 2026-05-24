@@ -74,4 +74,9 @@ for(let i = 0; i<para.length; i++){
 
 // Change their font size to "30px".
 
-let heading = document.querySelectorAll("h1");
+let headings = document.querySelectorAll("h2");
+ for(let i = 0; i<headings.length; i++){
+    headings[i].style.color = "blue";
+    
+ }
+
