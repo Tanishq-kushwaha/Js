@@ -55,3 +55,10 @@ for(let i = 0; i < boxLinks.length; i++){
 // Inside the loop, change the text color of each paragraph to purple or orange.
 
 // Change their font weight (font-weight, written as fontWeight in JS) to "bold."
+
+let para = document.getElementsByTagName("p");
+
+for(let i = 0; i<para.length; i++){
+    para[i].style.color = "purple";
+    para[i].style.fontWeight = "bold";
+}
