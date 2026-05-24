@@ -32,3 +32,11 @@ myDiv.style.backgroundColor = "aqua";
 // Changes their background color to yellow.
 
 // Code it and test it in a browser. If it's making you nervous, that's fine—growth always happens outside your comfort zone. Get to work.
+
+
+let boxLinks = document.getElementsByClassName("boxLink");
+
+for(let i = 0; i < boxLinks.length; i++){
+
+    boxLinks[i].style.backgroundColor = "yellow";
+}
