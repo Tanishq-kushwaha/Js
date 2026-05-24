@@ -12,11 +12,23 @@ myDiv.style.backgroundColor = "aqua";
 
 // let photo = document.getElementById("mainImg");
 
-let smallImgs = document.getElementsByClassName("oldImg");
+// let smallImgs = document.getElementsByClassName("oldImg");
 
-for(let i = 0 ; i<smallImgs.length; i++){
+// for(let i = 0 ; i<smallImgs.length; i++){
 
- smallImgs[i].src = "assets/spiderman_img.png";
-}
+//  smallImgs[i].src = "assets/spiderman_img.png";
+// }
 
 
+// Task
+// Your index.html contains several links within a <div class="box"> with class="boxLink".
+
+// Go back to your app.js. Using getElementsByClassName and a for loop, write code that:
+
+// Selects all these links with the boxLink class.
+
+// Changes the text color of each link to red or green while running the loop.
+
+// Changes their background color to yellow.
+
+// Code it and test it in a browser. If it's making you nervous, that's fine—growth always happens outside your comfort zone. Get to work.
