@@ -62,3 +62,16 @@ for(let i = 0; i<para.length; i++){
     para[i].style.color = "purple";
     para[i].style.fontWeight = "bold";
 }
+
+// Task
+// Your index.html has two <h2> tags: "About" and "Creation & Development".
+
+// Write this new code at the bottom of your app.js:
+
+// Use document.querySelectorAll to select both <h2> tags into a variable. (Remember, no dots or hashes are needed for tags).
+
+// Run a for loop.
+
+// Inside the loop, change the text color of each <h2> to blue.
+
+// Change their font size to "30px".
