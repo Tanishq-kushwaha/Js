@@ -93,3 +93,7 @@ for (let i = 0; i < headings.length; i++) {
 // First, use console.log(description.innerText) and console.log(description.innerHTML) to see the difference in the browser console.
 
 // Now, use innerHTML to replace the text of that entire paragraph and place a single word in the middle of the new text inside <i> (Italic) or <mark> (Highlight) tags (e.g., "I love coding in <mark>JavaScript</mark>")
+
+let paragraph = document.querySelector("#description");
+
+console.log(`This is innerText----> ${paragraph.innerText}`);
