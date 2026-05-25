@@ -133,7 +133,7 @@ spyderManImg.setAttribute("src", "https://dummyimage.com/400x400/000/fff&text=Ve
 
 
 
-let firstLink = document.querySelector("a");
+let firstLink = document.querySelector(".boxLink");
 
 firstLink.setAttribute("href","https://www.google.com");
 
