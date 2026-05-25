@@ -113,3 +113,15 @@ document.querySelector("#description").innerHTML = "i love coding in <i>javaScri
 console.log(`This is innerText----> ${paragraph.innerText}`);
 
 console.log(`This is innerHtml----> ${paragraph.innerHTML}`);
+
+
+
+
+// Task 
+// Use document.querySelector to select your #mainImg (Spider-Man's photo).
+
+// Find its current src using getAttribute and print it to the console.
+
+// Then use setAttribute to change the src of the image to "https://dummyimage.com/400x400/000/fff&text=Venom+Image" (so that another dummy image appears in place of Spider-Man's).
+
+// Select the first <a class="boxLink"> in your HTML and use setAttribute to set its src to "https://www.google.com".
