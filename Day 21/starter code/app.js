@@ -126,5 +126,7 @@ console.log(`This is innerHtml----> ${paragraph.innerHTML}`);
 
 // Select the first <a class="boxLink"> in your HTML and use setAttribute to set its src to "https://www.google.com".
 
-let img = document.querySelector("mainImg");
+let spyderManImg = document.querySelector("mainImg");
+
+
 
