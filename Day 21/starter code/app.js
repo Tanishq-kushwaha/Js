@@ -129,7 +129,7 @@ console.log(`This is innerHtml----> ${paragraph.innerHTML}`);
 let spyderManImg = document.querySelector("#mainImg");
 console.log(spyderManImg.getAttribute("src")); // for print source in console 
 
-
+spyderManImg.getAttribute("#mainImg","https://dummyimage.com/400x400/000/fff&text=Venom+Image");
 
 
 
