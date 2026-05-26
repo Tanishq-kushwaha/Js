@@ -138,6 +138,6 @@ let firstLink = document.querySelector(".boxLink");
 firstLink.setAttribute("href","https://www.google.com");
 
 
-let dabba = document.querySelector(".boxLink");
-dabba.setAttribute("borderRadius","50%");
+let dabba = document.querySelector(".box");
+dabba.setAttribute("width","50%");
 
