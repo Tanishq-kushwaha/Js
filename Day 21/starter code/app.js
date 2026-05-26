@@ -142,4 +142,4 @@ let dabba = document.querySelector(".box");
 dabba.setAttribute("")
 
 
-spyderManImg.setAttribute("width", "200px"); 
+// spyderManImg.setAttribute("width", "200px"); 
