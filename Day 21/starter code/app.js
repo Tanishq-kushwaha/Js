@@ -140,3 +140,6 @@ firstLink.setAttribute("href","https://www.google.com");
 let dabba = document.querySelector(".box");
 
 dabba.setAttribute("")
+
+
+spyderManImg.setAttribute("width", "200px"); 
