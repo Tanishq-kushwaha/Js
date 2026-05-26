@@ -133,13 +133,10 @@ spyderManImg.setAttribute("src", "https://dummyimage.com/400x400/000/fff&text=Ve
 
 
 
-let firstLink = document.querySelector(".boxLink");
+// let firstLink = document.querySelector(".boxLink");
 
-firstLink.setAttribute("href","https://www.google.com");
+// firstLink.setAttribute("href","https://www.google.com");
 
-let dabba = document.querySelector(".box");
+// let dabba = document.querySelector(".box");
 
-dabba.setAttribute("")
-
-
-// spyderManImg.setAttribute("width", "200px"); 
+// dabba.setAttribute("")
