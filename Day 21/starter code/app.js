@@ -131,12 +131,3 @@ console.log(spyderManImg.getAttribute("src")); // for print source in console
 
 spyderManImg.setAttribute("src", "https://dummyimage.com/400x400/000/fff&text=Venom+Image"); // for changing the source link of image 
 
-
-
-// let firstLink = document.querySelector(".boxLink");
-
-// firstLink.setAttribute("href","https://www.google.com");
-
-// let dabba = document.querySelector(".box");
-
-// dabba.setAttribute("")
