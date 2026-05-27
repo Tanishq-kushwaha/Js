@@ -137,5 +137,6 @@ spyderManImg.setAttribute("src", "https://dummyimage.com/400x400/000/fff&text=Ve
 // hasAttribute()
 
 // for check attribute is exists
-//
-console.log(spyderManImg.hasAttributes("src"));//true
+// return a boolean value True or False
+console.log(spyderManImg.hasAttribute("src"));//true
+console.log(spyderManImg.hasAttribute("title"));//false
