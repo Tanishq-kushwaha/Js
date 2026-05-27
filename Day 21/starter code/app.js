@@ -141,3 +141,8 @@ spyderManImg.setAttribute("class","big");// for changing class
 // return a boolean value True or False
 console.log(spyderManImg.hasAttribute("src"));//true
 console.log(spyderManImg.hasAttribute("title"));//false
+
+
+let old = document.querySelector(".oldImg");
+
+old.setAttribute("width","5000");// dont work beacause CSS over write this 
