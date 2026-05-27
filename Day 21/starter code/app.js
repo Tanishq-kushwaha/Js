@@ -127,9 +127,15 @@ console.log(`This is innerHtml----> ${paragraph.innerHTML}`);
 // Select the first <a class="boxLink"> in your HTML and use setAttribute to set its src to "https://www.google.com".
 
 let spyderManImg = document.querySelector("#mainImg");
+
+
+
 console.log(spyderManImg.getAttribute("src")); // for print source in console 
 
 spyderManImg.setAttribute("src", "https://dummyimage.com/400x400/000/fff&text=Venom+Image"); // for changing the source link of image 
 
 // hasAttribute()
 
+// for check attribute is exists
+//
+console.log(spyderManImg.hasAttributes("src"));//true
