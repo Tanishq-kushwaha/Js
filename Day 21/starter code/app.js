@@ -11,7 +11,16 @@ actionButton.addEventListener("click", function () {
     //Usage of .toggle(): This will add and remove the 'darkModeBox' class on every click.
 
 
+
     
+    // Usage of .contains(): We will check whether Dark Mode is on or off,
+    // // and update the button's text (.innerText) accordingly!        
+    if (targetBox.classList.contains("darkModeBox")) {
+
+        actionButton.innerText = "Light mode on";
+    } else {
+        actionButton.innerText = "dark mode on ";
+    }
 });
 
 
