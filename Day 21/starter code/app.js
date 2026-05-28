@@ -147,6 +147,7 @@ let old = document.querySelector(".oldImg");
 
 old.setAttribute("width","5000");// dont work beacause CSS over write this 
 
-old.style.width = "500px";
+
+
 
 
