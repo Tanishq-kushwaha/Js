@@ -1,14 +1,31 @@
 // Create an empty <div> and a <button>. On click of the button, change the background color of the <div> and insert some text into it using getElementById in JavaScript.
 let myDiv = document.getElementById("specialDiv");
-let actionButton = document.getElementById("specialButton");
 
+
+let actionButton = document.getElementById("specialButton");// for selecting button 
+let targetBox = document.querySelector(".box");// for selecting box
 
 actionButton.addEventListener("click", function () {
 
-    myDiv.innerText = "hello spider man";
-    myDiv.style.backgroundColor = "aqua";
+    targetBox.classList.toggle("darkModeBox");
+    //Usage of .toggle(): This will add and remove the 'darkModeBox' class on every click.
 
+
+    
 });
+
+
+
+
+
+
+// actionButton.addEventListener("click", function () {
+
+//     myDiv.innerText = "hello spider man";
+//     myDiv.style.backgroundColor = "aqua";
+
+// });
+
 
 // let photo = document.getElementById("mainImg");
 
@@ -132,7 +149,7 @@ console.log(spyderManImg.getAttribute("src")); // for print source in console
 
 spyderManImg.setAttribute("src", "https://dummyimage.com/400x400/000/fff&text=Venom+Image"); // for changing the source link of image 
 
-spyderManImg.setAttribute("class","big");// for changing class
+spyderManImg.setAttribute("class", "big");// for changing class
 
 
 // hasAttribute()
@@ -145,7 +162,7 @@ console.log(spyderManImg.hasAttribute("title"));//false
 
 let old = document.querySelector(".oldImg");
 
-old.setAttribute("width","5000");// dont work beacause CSS over write this 
+old.setAttribute("width", "5000");// dont work beacause CSS over write this 
 
 
 
