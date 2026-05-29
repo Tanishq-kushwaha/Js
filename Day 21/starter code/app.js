@@ -183,8 +183,6 @@ let btn = document.querySelector("#btn");
 
 btn.addEventListener("click", function () {
     btn.classList.toggle("darkModeBtn");
-    btn.innerText = "Light";
-
 
 
     if (btn.classList.contains("darkModeBtn")) {
