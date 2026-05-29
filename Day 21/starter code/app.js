@@ -12,7 +12,7 @@ actionButton.addEventListener("click", function () {
 
 
 
-    
+
     // Usage of .contains(): We will check whether Dark Mode is on or off,
     // // and update the button's text (.innerText) accordingly!        
     if (targetBox.classList.contains("darkModeBox")) {
@@ -177,14 +177,19 @@ old.setAttribute("width", "5000");// dont work beacause CSS over write this
 // working on button
 
 
-let btn =  document.querySelector("#btn");
+let btn = document.querySelector("#btn");
 
 
 
-btn.addEventListener("click", function(){
+btn.addEventListener("click", function () {
     btn.classList.toggle("darkModeBtn");
     btn.innerText = "Light";
 
-})
 
 
+    if (btn.classList.contains("darkModeBtn")) {
+        btn.innerText = "Light";
+    } else {
+        btn.innerText = "Dark";
+    }
+});
