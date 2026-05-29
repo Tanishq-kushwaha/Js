@@ -174,6 +174,17 @@ let old = document.querySelector(".oldImg");
 old.setAttribute("width", "5000");// dont work beacause CSS over write this 
 
 
+// working on button
 
+
+let btn =  document.querySelector("#btn");
+
+
+
+btn.addEventListener("click", function(){
+    btn.classList.toggle("darkModeBtn");
+    btn.innerText = "Light";
+
+})
 
 
