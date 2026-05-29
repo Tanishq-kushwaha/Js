@@ -183,11 +183,12 @@ let btn = document.querySelector("#btn");
 
 btn.addEventListener("click", function () {
     btn.classList.toggle("darkModeBtn");
+    document.body.classList.toggle("dark");
 
-
-    if (btn.classList.contains("darkModeBtn")) {
-        btn.innerText = "Light";
+    if (document.body.classList.contains("dark")) {
+        btn.innerText = "click for Light";
     } else {
-        btn.innerText = "Dark";
+        btn.innerText = "Click for power cut";
     }
 });
+
