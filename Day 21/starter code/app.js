@@ -226,3 +226,6 @@ centerImg.style.boxShadow = "0px 0px 20px blue" // for shadow
 // Step 4: Now listen carefully! Don't query the box again. Use nextElementSibling on your <h4> tag code so you can reach the tag directly below it (i.e., the <ul> list).
 
 // Step 5: Reach that <ul> tag, add a border to it (e.g., "2px dashed black") and change its background color to "lightgreen".
+
+let infoBox = document.querySelectorAll(".box");
+
