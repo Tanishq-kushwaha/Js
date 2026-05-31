@@ -192,3 +192,12 @@ btn.addEventListener("click", function () {
     }
 });
 
+
+
+
+// Our HTML contains a <div class="images"> containing three Spider-Man creation images. We'll capture the middle image and style its relatives using navigation.
+
+let centerImg = document.querySelectorAll(".oldImg")[1];
+
+
+
