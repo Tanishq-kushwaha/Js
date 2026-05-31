@@ -227,5 +227,6 @@ centerImg.style.boxShadow = "0px 0px 20px blue" // for shadow
 
 // Step 5: Reach that <ul> tag, add a border to it (e.g., "2px dashed black") and change its background color to "lightgreen".
 
-let infoBox = document.querySelectorAll(".box");
+let infoBox = document.querySelector(".box");
 
+infoBox.children[0].innerText = "Spider-Man Secret Info";
