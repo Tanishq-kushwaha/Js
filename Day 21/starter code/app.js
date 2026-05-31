@@ -200,4 +200,4 @@ btn.addEventListener("click", function () {
 let centerImg = document.querySelectorAll(".oldImg")[1];
 
 
-
+centerImg.parentElement.style.backgroundColor = "black"; // for black BG.
