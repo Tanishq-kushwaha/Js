@@ -207,3 +207,4 @@ centerImg.previousElementSibling.style.opacity = "0.3";// for changing opacity
 
 centerImg.nextElementSibling.style.opacity = "0.3";//  for changing opacity 
 
+centerImg.style.boxShadow = "0px 0px 20px blue" // for shadow
