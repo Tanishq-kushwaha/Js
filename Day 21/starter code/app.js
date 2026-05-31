@@ -208,3 +208,21 @@ centerImg.previousElementSibling.style.opacity = "0.3";// for changing opacity
 centerImg.nextElementSibling.style.opacity = "0.3";//  for changing opacity 
 
 centerImg.style.boxShadow = "0px 0px 20px blue" // for shadow
+
+
+
+
+// The Challenge: "Secret Info Reveal"
+// Your index.html contains a <div class="box">. Inside this box is a <h4> (containing "Publication Info") and a <ul> list. You have to play with these.
+
+// Your Steps (Logic Only):
+
+// Step 1: In your app.js, first select that <div class="box"> and store it in a variable. (This is your starting point).
+
+// Step 2: Now use the children property on that box variable. You know that children returns an array. Target the first child in that list (which is the <h4> tag).
+
+// Step 3: Change the innerText of that <h4> tag to "Spider-Man Secret Info" and change its background color to "red" and text color to "white".
+
+// Step 4: Now listen carefully! Don't query the box again. Use nextElementSibling on your <h4> tag code so you can reach the tag directly below it (i.e., the <ul> list).
+
+// Step 5: Reach that <ul> tag, add a border to it (e.g., "2px dashed black") and change its background color to "lightgreen".
