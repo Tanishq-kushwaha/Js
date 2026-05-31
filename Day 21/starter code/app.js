@@ -232,7 +232,7 @@ let infoBox = document.querySelector(".box");
 infoBox.children[0].innerText = "Spider-Man Secret Info";
 
 infoBox.children[0].style.backgroundColor = "red";
-infoBox.children[0].style.Color = "White";
+infoBox.children[0].style.color = "white";
 
 
 infoBox.children[0].nextElementSibling.style.border = "2px dashed black";
