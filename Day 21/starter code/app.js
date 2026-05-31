@@ -201,3 +201,6 @@ let centerImg = document.querySelectorAll(".oldImg")[1];
 
 
 centerImg.parentElement.style.backgroundColor = "black"; // for black BG.
+
+
+centerImg.previousElementSibling.style.opacity = "0.3";// for changing opacity 
