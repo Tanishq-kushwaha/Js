@@ -204,3 +204,6 @@ centerImg.parentElement.style.backgroundColor = "black"; // for black BG.
 
 
 centerImg.previousElementSibling.style.opacity = "0.3";// for changing opacity 
+
+centerImg.nextElementSibling.style.opacity = "0.3";//  for changing opacity 
+
