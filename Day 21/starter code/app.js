@@ -252,3 +252,7 @@ alertMsg.style.color = "red";
 alertMsg.style.fontWeight = "bold";
 
 let imageDiv = document.querySelector(".images");
+
+imageDiv.prepend(alertMsg);
+
+let bookBtn = document.createElement('button');
