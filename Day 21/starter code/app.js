@@ -251,4 +251,4 @@ alertMsg.style.color = "red";
 
 alertMsg.style.fontWeight = "bold";
 
-document.querySelector(".images");
+let imageDiv = document.querySelector(".images");
