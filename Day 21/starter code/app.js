@@ -243,13 +243,13 @@ infoBox.children[0].nextElementSibling.style.backgroundColor = "lightgreen";
 
 // Practice Challenge: "Dynamic Ad Banner"
 
-let alertMsg = document.createElement('h3');
+let alertMsg = document.createElement('h3');// creating a h3 element and named alertMsg
 
-alertMsg.innerText = "Exclusive: Venom is coming!";
+alertMsg.innerText = "Exclusive: Venom is coming!";//text that show in body 
 
-alertMsg.style.color = "red";
+alertMsg.style.color = "red";// set the  style red color for alertMsg
 
-alertMsg.style.fontWeight = "bold";
+alertMsg.style.fontWeight = "bold";// set the font weight for atertMsg
 
 let imageDiv = document.querySelector(".images");
 
