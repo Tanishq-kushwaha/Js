@@ -245,7 +245,7 @@ infoBox.children[0].nextElementSibling.style.backgroundColor = "lightgreen";
 
 let alertMsg = document.createElement('h3');// creating a h3 element and named alertMsg
 
-alertMsg.innerText = "Exclusive: Venom is coming!";//text that show in body 
+alertMsg.innerText = "Exclusive: Spider man new series is coming!";//text that show in body 
 
 alertMsg.style.color = "red";// set the  style red color for alertMsg
 
@@ -256,3 +256,7 @@ let imageDiv = document.querySelector(".images");
 imageDiv.prepend(alertMsg);
 
 let bookBtn = document.createElement('button');
+
+bookBtn.innerText = "Book tickets";
+
+imageDiv.insertAdjacentElement("afterend",bookBtn);
