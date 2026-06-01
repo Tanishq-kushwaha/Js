@@ -242,3 +242,13 @@ infoBox.children[0].nextElementSibling.style.backgroundColor = "lightgreen";
 
 
 // Practice Challenge: "Dynamic Ad Banner"
+
+let alertMsg = document.createElement('h3');
+
+alertMsg.innerText = "Exclusive: Venom is coming!";
+
+alertMsg.style.color = "red";
+
+alertMsg.style.fontWeight = "bold";
+
+document.querySelector(".images");
