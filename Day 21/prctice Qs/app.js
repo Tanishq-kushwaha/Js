@@ -16,3 +16,5 @@ let head3 = document.createElement("h3");
 head3.innerText = "Hey I'm red!";
 head3.style.color = "blue";
 document.querySelector("body").append("head3");
+
+head3.classList.add('.blue');
