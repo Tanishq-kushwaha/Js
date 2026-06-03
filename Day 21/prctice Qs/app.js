@@ -7,6 +7,6 @@
 //  a <p> that says "ME TOO!" 
 
 let para = document.createElement("p");
-para.style.color = "red";                    
 para.innerText = "Hey I'm red!";
-para.prepend("p"); 
+para.style.color = "red";                    
+document.querySelector("body").append(para);                    
