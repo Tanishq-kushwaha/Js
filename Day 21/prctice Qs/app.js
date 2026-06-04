@@ -17,7 +17,12 @@ head3.innerText = "I'm a blue h3!";
 head3.style.color = "blue";
 document.querySelector("body").append(head3);
 
-let box = document.querySelector("div");
+let box = document.createElement("div");
+let h1 = document.createElement("h1");
+let para1 = document.createElement("p");
 box.style.border = "2px solid black";
 box.style.backgroundColor = "pink";
+
+h1.innerText = "I'm in a div";
+para1.innerText =  "ME TOO!" ;
 
