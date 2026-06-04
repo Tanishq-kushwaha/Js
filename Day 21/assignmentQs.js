@@ -17,3 +17,6 @@
 let inputBox = document.createElement("input");
 let btn = document.createElement("button");
 btn.innerText = "click me";
+
+document.querySelector("body").append(inputBox);
+document.querySelector("body").append(btn);
