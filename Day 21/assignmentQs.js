@@ -14,9 +14,13 @@
 // where Delta is bold.
 
 
+// Answer no 1
+
 let inputBox = document.createElement("input");
-let btn = document.createElement("button");
-btn.innerText = "click me";
+let button = document.createElement("button");
+button.innerText = "click me";
 
 document.querySelector("body").append(inputBox);
-document.querySelector("body").append(btn);
+document.querySelector("body").append(button);
+
+// Answer No 2
