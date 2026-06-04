@@ -19,3 +19,5 @@ document.querySelector("body").append(head3);
 
 let box = document.querySelector("div");
 box.style.border = "2px solid black";
+box.style.backgroundColor = "pink";
+
