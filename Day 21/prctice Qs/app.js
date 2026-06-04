@@ -26,3 +26,6 @@ box.style.backgroundColor = "pink";
 h1.innerText = "I'm in a div";
 para1.innerText =  "ME TOO!" ;
 
+box.append(h1);
+box.append(para1);
+document.querySelector("body").append(box);
