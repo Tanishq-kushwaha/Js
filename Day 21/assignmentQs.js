@@ -33,3 +33,11 @@ btn.style.backgroundColor = "blue";
 btn.style.color = "white";
 
 
+// Answer no 4
+
+let heading = document.createElement("h1");
+heading.innerText =  "DOM Practice";
+heading.style.textDecoration = "underline";
+heading.style.color = "purple";
+
+document.querySelector("body").append(heading);
