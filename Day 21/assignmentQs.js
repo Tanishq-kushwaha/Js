@@ -41,3 +41,9 @@ heading.style.textDecoration = "underline";
 heading.style.color = "purple";
 
 document.querySelector("body").append(heading);
+
+// Answer no 5
+let para = document.createElement("p");
+para.innerHTML = "Apna College <b>Delta</b> Practice";
+
+document.querySelector("body").append(para);
