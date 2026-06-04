@@ -27,3 +27,9 @@ document.querySelector("body").append(button);
 inputBox.placeholder = "username";
 button.id = "btn";
 
+// Answer no 3
+let btn = document.querySelector("#btn");
+btn.style.backgroundColor = "blue";
+btn.style.color = "white";
+
+
