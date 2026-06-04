@@ -12,3 +12,8 @@
 // Change its color to purple.
 // Qs5. Create a p tag on the page and set its text to "Apna College Delta Practice",
 // where Delta is bold.
+
+
+let inputBox = document.createElement("input");
+let btn = document.createElement("button");
+btn.innerText = "click me";
