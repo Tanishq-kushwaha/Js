@@ -24,3 +24,4 @@ document.querySelector("body").append(inputBox);
 document.querySelector("body").append(button);
 
 // Answer No 2
+inputBox.placeholder = "username";
