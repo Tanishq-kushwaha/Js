@@ -13,8 +13,9 @@ document.querySelector("body").append(para);
 
 
 let head3 = document.createElement("h3");
-head3.innerText = "Hey I'm red!";
+head3.innerText = "I'm a blue h3!";
 head3.style.color = "blue";
-document.querySelector("body").append("head3");
+document.querySelector("body").append(head3);
 
-head3.classList.add('.blue');
+let box = document.querySelector("div");
+box.style.border = "2px solid black";
