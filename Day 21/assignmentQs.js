@@ -24,7 +24,8 @@ document.querySelector("body").append(inputBox);
 document.querySelector("body").append(button);
 
 // Answer No 2
-inputBox.placeholder = "username";
+inputBox.setAttribute("placeholder", "username");
+// inputBox.placeholder = "username";
 button.id = "btn";
 
 // Answer no 3
