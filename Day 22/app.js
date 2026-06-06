@@ -6,7 +6,7 @@ document.querySelector("body").append(btn);
 
 btn.onclick = function(){
     document.querySelector("h1").innerText =  "Button was clicked";
-}
+};
 // Task 2: Create a button that changes the background color of the webpage when clicked.
 
 let btn2 = document.createElement("button");
@@ -15,7 +15,7 @@ document.querySelector("body").append(btn2);
 
 btn2.onclick = function(){
     document.querySelector("body").style.backgroundColor = "red";
-}
+};
 // Task 3: Create a paragraph <p> that starts with 0. Then create a button that, when clicked, increments the number by 1.
 
 let para = document.createElement("p");
@@ -25,3 +25,10 @@ document.querySelector("body").append(para);
 let btn3 = document.createElement("button");
 btn3.innerText = "Click me and count.";
 document.querySelector("body").append(btn3);
+
+let count = 0;
+btn3.onclick = function(){
+    count++; 
+    // console.log(count);
+    para.innerText = count;
+};
