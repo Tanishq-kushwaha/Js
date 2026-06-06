@@ -3,3 +3,7 @@
 let btn = document.createElement("button");
 btn.innerText = "Click me!";
 document.querySelector("body").append(btn);
+
+btn.onclick = function(){
+    document.querySelector("h1").style.color =  "blue";
+}
