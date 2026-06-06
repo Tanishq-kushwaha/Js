@@ -22,3 +22,6 @@ let para = document.createElement("p");
 para.innerText = "0";
 document.querySelector("body").append(para);
 
+let btn3 = document.createElement("button");
+btn3.innerText = "Click me and count.";
+document.querySelector("body").append(btn3);
