@@ -10,3 +10,9 @@ btn.onclick = function(){
 // Task 2: Create a button that changes the background color of the webpage when clicked.
 
 let btn2 = document.createElement("button");
+btn2.innerText = "Click for change BG color";
+document.querySelector("body").append(btn2);
+
+btn2.onclick = function(){
+    document.querySelector("body").style.backgroundColor = "red";
+}
