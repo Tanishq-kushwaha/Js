@@ -16,3 +16,9 @@ document.querySelector("body").append(btn2);
 btn2.onclick = function(){
     document.querySelector("body").style.backgroundColor = "red";
 }
+// Task 3: Create a paragraph <p> that starts with 0. Then create a button that, when clicked, increments the number by 1.
+
+let para = document.createElement("p");
+para.innerText = "0";
+document.querySelector("body").append(para);
+
