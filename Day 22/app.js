@@ -56,3 +56,4 @@ box.onmouseleave = function(){
 // 1. Create an <input> field where the user can type their name.
 // 2. Create a <p> tag that initially displays "Characters: 0".
 // 3. Using the onkeyup event, the total character length within the paragraph should be updated as soon as the user types something in the input field and releases the key.
+
