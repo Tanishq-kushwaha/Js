@@ -34,3 +34,13 @@ btn3.onclick = function(){
 };
 
 // Task 4 (Hover Magic): Create a <div> element (without a CSS file, you can style it with JS) with a width and height of 200px and a background color of red. When the user moves their mouse inside the box (onmouseenter), its background color should change to yellow.
+
+let box = document.querySelector("div");
+box.style.width = "200px";
+box.style.height = "200px";
+box.style.backgroundColor = "red";
+
+
+box.onmouseenter = function (){
+    box.style.backgroundColor = "Yellow";
+}
