@@ -57,3 +57,6 @@ box.onmouseleave = function(){
 // 2. Create a <p> tag that initially displays "Characters: 0".
 // 3. Using the onkeyup event, the total character length within the paragraph should be updated as soon as the user types something in the input field and releases the key.
 
+let paragraph = document.querySelector("#para1");
+
+
