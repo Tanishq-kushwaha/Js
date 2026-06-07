@@ -61,7 +61,6 @@ let paragraph = document.querySelector("#para1");
 let input = document.querySelector("input");
 
 
-paragraph.onkeyup = function(){
-   let charCount = input.value.length;
-    paragraph.innerText =  charCount;
+input.onkeyup = function(){
+    paragraph.innerText =  "Characters: " + input.value.length;
 }
