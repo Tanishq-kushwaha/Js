@@ -43,4 +43,7 @@ box.style.backgroundColor = "red";
 
 box.onmouseenter = function (){
     box.style.backgroundColor = "Yellow";
-}
+};
+
+
+// Task 5 (Hover & Leave): Add another event to your code above—onmouseleave. When the user moves their mouse out of the box, its background color should return to red.
