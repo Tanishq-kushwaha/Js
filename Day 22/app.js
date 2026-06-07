@@ -47,3 +47,7 @@ box.onmouseenter = function (){
 
 
 // Task 5 (Hover & Leave): Add another event to your code above—onmouseleave. When the user moves their mouse out of the box, its background color should return to red.
+
+box.onmouseleave = function(){
+    box.style.backgroundColor = "red";
+}
