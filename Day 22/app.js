@@ -64,3 +64,7 @@ let input = document.querySelector("input");
 input.onkeyup = function(){
     paragraph.innerText =  "Characters: " + input.value.length;
 }
+
+
+
+
