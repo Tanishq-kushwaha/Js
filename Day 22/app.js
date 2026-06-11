@@ -50,6 +50,7 @@ box.onmouseenter = function (){
 
 box.onmouseleave = function(){
     box.style.backgroundColor = "red";
+    console.log("Enter in div");
 }
 
 // Task 6 (Character Counter): > 
@@ -65,6 +66,10 @@ input.onkeyup = function(){
     paragraph.innerText =  "Characters: " + input.value.length;
 }
 
+let h1 = document.querySelector("h1");
 
+h1.addEventListener("click", function(){
+ console.log("Heading was clicked");
+});
 
 
