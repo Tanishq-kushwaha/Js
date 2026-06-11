@@ -6,6 +6,8 @@ btn.addEventListener("click", function(){
     let randomColor = getRandomColor();
     h3.innerText = randomColor;
     console.log("Color Updated");
+    let div = document.querySelector("div");
+    div.style.backgroundColor = randomColor;
   
 });
 
