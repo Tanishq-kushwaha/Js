@@ -2,7 +2,11 @@ let btn = document.querySelector("button");
 
 
 btn.addEventListener("click", function(){
-  console.log("Random color");
+    let h3 = document.querySelector("h3");
+    let randomColor = getRandomColor();
+    h3.innerText = randomColor;
+    console.log("Color Updated");
+  
 });
 
 function getRandomColor(){
@@ -10,5 +14,6 @@ function getRandomColor(){
     let green = Math.floor(Math.random()*255);
     let blue = Math.floor(Math.random()*255);
 
-    
+    let color = `rgb(${red}, ${green}, ${blue})`;
+    return color;
 }
