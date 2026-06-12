@@ -148,9 +148,10 @@ input.addEventListener("keydown", function(event) {
 
 // Attach a "keydown" event listener to the entire document using JavaScript.
 
-// Do not use `this` here; instead, use the event object inside the function.
-
 // As soon as the user presses a key, the text of the `<h1>` should change to display the name of that key (e.g., if Enter is pressed, the screen should show: "You pressed: Enter").
 
 let heading = document.querySelector("h1");
 
+document.addEventListener("keydown", function(event){
+heading.innerText = ` You pressed :${event.code}`;
+});
