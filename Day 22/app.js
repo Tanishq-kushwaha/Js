@@ -114,3 +114,15 @@ dabba.addEventListener("click", function(){
        this.style.backgroundColor = "green";
        this.style.color = "white";
 });
+
+
+
+// Task 8.3 (The Multi-Color Buttons 🎮):
+
+// Create 3 separate buttons in HTML, each labeled with a different color name—for example, "Red" for the first, "Blue" for the second, and "Green" for the third. Assign a common class to all three buttons, such as `class="colorBtn"`.
+
+// Use `querySelectorAll(".colorBtn")` in JavaScript to select all these buttons at once.
+
+// Run a `for...of` loop to attach an `addEventListener` to every button in that collection.
+
+// Inside the function, use the `this` keyword to implement logic so that whenever a button is clicked, its background color changes to match its `innerText`! >)
