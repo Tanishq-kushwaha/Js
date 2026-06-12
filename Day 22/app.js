@@ -130,5 +130,7 @@ dabba.addEventListener("click", function(){
 let colorBtns = document.querySelectorAll(".colorBtn");
 
 for(let btn of colorBtns){
-    
+ btn.addEventListener("click", function(){
+   this.style.backgroundColor  = this.innerText;
+ });   
 }
