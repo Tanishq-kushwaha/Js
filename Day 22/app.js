@@ -89,8 +89,8 @@ button.onclick = function(){
 // Attach a "click" event to it using the modern `addEventListener`.
 // When the user clicks it, an `alert("Modern JS Mastered!")` popup should appear on the screen.
 
-let alert = document.querySelector(".alert");
+let alertBtn = document.querySelector(".alertBtn");
 
-alert.addEventListener("click", function(){
+alertBtn.addEventListener("click", function(){
    alert("Modern JS Mastered!");
 });
