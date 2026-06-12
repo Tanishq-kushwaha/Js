@@ -134,3 +134,4 @@ for(let btn of colorBtns){
    this.style.backgroundColor  = this.innerText;
  });   
 }
+
