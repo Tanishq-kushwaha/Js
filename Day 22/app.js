@@ -73,3 +73,8 @@ h1.addEventListener("click", function(){
 });
 
 
+
+
+// Task 8: Create a button that initially displays "0". Create an `onclick` function using the `this` keyword so that whenever the button is clicked, its text increments by 1 (acting like a counter, but without using a separate count variable—directly using `this.innerText`).
+
+
