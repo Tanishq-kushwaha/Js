@@ -83,3 +83,14 @@ let button = document.querySelector("#count");
 button.onclick = function(){
     this.innerText = Number(this.innerText)+1;
 }
+
+// Task 9 (The Modern Way):
+// Create a new button.
+// Attach a "click" event to it using the modern `addEventListener`.
+// When the user clicks it, an `alert("Modern JS Mastered!")` popup should appear on the screen.
+
+let alert = document.querySelector(".alert");
+
+alert.addEventListener("click", function(){
+   alert("Modern JS Mastered!");
+});
