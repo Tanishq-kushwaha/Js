@@ -51,6 +51,7 @@ box.onmouseenter = function (){
 box.onmouseleave = function(){
     box.style.backgroundColor = "red";
     console.log("Enter in div");
+    this.style.borderRadius = "50%";
 }
 
 // Task 6 (Character Counter): > 
@@ -94,3 +95,14 @@ let alertBtn = document.querySelector(".alertBtn");
 alertBtn.addEventListener("click", function(){
    alert("Modern JS Mastered!");
 });
+
+
+// Task 8.2 (The Toggle Box):
+
+// Create a `<div>` in HTML containing some initial text, such as "Click to Highlight".
+
+// Attach a "click" event listener to it.
+
+// Inside the function, use only the `this` keyword to change the box's background color to green and the text color to white.
+
+
