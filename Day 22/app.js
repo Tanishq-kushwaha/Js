@@ -4,8 +4,8 @@ let btn = document.createElement("button");
 btn.innerText = "Click me!";
 document.querySelector("body").append(btn);
 
-btn.onclick = function(){
-    document.querySelector("h1").innerText =  "Button was clicked";
+btn.onclick = function () {
+    document.querySelector("h1").innerText = "Button was clicked";
 };
 // Task 2: Create a button that changes the background color of the webpage when clicked.
 
@@ -13,7 +13,7 @@ let btn2 = document.createElement("button");
 btn2.innerText = "Click for change BG color";
 document.querySelector("body").append(btn2);
 
-btn2.onclick = function(){
+btn2.onclick = function () {
     document.querySelector("body").style.backgroundColor = "red";
 };
 // Task 3: Create a paragraph <p> that starts with 0. Then create a button that, when clicked, increments the number by 1.
@@ -27,8 +27,8 @@ btn3.innerText = "Click me and count.";
 document.querySelector("body").append(btn3);
 
 let count = 0;
-btn3.onclick = function(){
-    count++; 
+btn3.onclick = function () {
+    count++;
     // console.log(count);
     para.innerText = count;
 };
@@ -41,14 +41,14 @@ box.style.height = "200px";
 box.style.backgroundColor = "red";
 
 
-box.onmouseenter = function (){
+box.onmouseenter = function () {
     box.style.backgroundColor = "Yellow";
 };
 
 
 // Task 5 (Hover & Leave): Add another event to your code above—onmouseleave. When the user moves their mouse out of the box, its background color should return to red.
 
-box.onmouseleave = function(){
+box.onmouseleave = function () {
     box.style.backgroundColor = "red";
     console.log("Enter in div");
     this.style.borderRadius = "50%";
@@ -63,14 +63,14 @@ let paragraph = document.querySelector("#para1");
 let input = document.querySelector("input");
 
 
-input.onkeyup = function(){
-    paragraph.innerText =  "Characters: " + input.value.length;
+input.onkeyup = function () {
+    paragraph.innerText = "Characters: " + input.value.length;
 }
 
 let h1 = document.querySelector("h1");
 
-h1.addEventListener("click", function(){
- console.log("Heading was clicked");
+h1.addEventListener("click", function () {
+    console.log("Heading was clicked");
 });
 
 
@@ -81,8 +81,8 @@ h1.addEventListener("click", function(){
 
 let button = document.querySelector("#count");
 
-button.onclick = function(){
-    this.innerText = Number(this.innerText)+1;
+button.onclick = function () {
+    this.innerText = Number(this.innerText) + 1;
 }
 
 // Task 9 (The Modern Way):
@@ -92,8 +92,8 @@ button.onclick = function(){
 
 let alertBtn = document.querySelector(".alertBtn");
 
-alertBtn.addEventListener("click", function(){
-   alert("Modern JS Mastered!");
+alertBtn.addEventListener("click", function () {
+    alert("Modern JS Mastered!");
 });
 
 
@@ -108,11 +108,11 @@ alertBtn.addEventListener("click", function(){
 
 let dabba = document.querySelector("#dabba");
 
-dabba.addEventListener("click", function(){
-       this.style.width = "200px" ;
-       this.style.height = "200px" ;
-       this.style.backgroundColor = "green";
-       this.style.color = "white";
+dabba.addEventListener("click", function () {
+    this.style.width = "200px";
+    this.style.height = "200px";
+    this.style.backgroundColor = "green";
+    this.style.color = "white";
 });
 
 
@@ -129,15 +129,15 @@ dabba.addEventListener("click", function(){
 
 let colorBtns = document.querySelectorAll(".colorBtn");
 
-for(let btn of colorBtns){
- btn.addEventListener("click", function(){
-   this.style.backgroundColor  = this.innerText;
- });   
+for (let btn of colorBtns) {
+    btn.addEventListener("click", function () {
+        this.style.backgroundColor = this.innerText;
+    });
 }
 
 // Keyboard Event
 
-input.addEventListener("keydown", function(event) {
+input.addEventListener("keydown", function (event) {
     console.log(event.key);
 });
 
@@ -152,6 +152,6 @@ input.addEventListener("keydown", function(event) {
 
 let heading = document.querySelector("h1");
 
-document.addEventListener("keydown", function(event){
-heading.innerText = ` You pressed :${event.code}`;
+document.addEventListener("keydown", function (event) {
+    heading.innerText = ` You pressed :${event.code}`;
 });
