@@ -175,3 +175,12 @@ let div1 = document.querySelector(".container");
 div1.style.backgroundColor = "blue";
 div1.style.width = "100px";
 div1.style.height = "100px";
+
+document.addEventListener("keydown", function(event){
+if(event.key === "ArrowUp"){
+    div1.style.backgroundColor = "red";
+}
+else if(event.key === "ArrowDown"){
+    div1.style.backgroundColor = "blue";
+}
+});
