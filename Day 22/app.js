@@ -159,9 +159,7 @@ document.addEventListener("keydown", function (event) {
 
 
 
-// Task 11: Game Controls Logic 🎮 (The Next Challenge)
-// Now, we will learn the most real-world use case for keyboard events: handling game controls.
-
+// Game Controls Logic 🎮 (The Next Challenge)
 // Task 11:
 
 // Create a `<div>` with a blue background color and dimensions of 100px by 100px.
@@ -171,3 +169,9 @@ document.addEventListener("keydown", function (event) {
 // When the user presses the "Arrow Up" key (`event.key === "ArrowUp"`), the box's color should change to red.
 
 // When the user presses the "Arrow Down" key, the color should revert to blue.
+
+let div1 = document.querySelector(".container");
+
+div1.style.backgroundColor = "blue";
+div1.style.width = "100px";
+div1.style.height = "100px";
