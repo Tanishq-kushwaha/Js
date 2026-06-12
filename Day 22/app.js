@@ -155,3 +155,19 @@ let heading = document.querySelector("h1");
 document.addEventListener("keydown", function (event) {
     heading.innerText = ` You pressed :${event.code}`;
 });
+
+
+
+
+// Task 11: Game Controls Logic 🎮 (The Next Challenge)
+// Now, we will learn the most real-world use case for keyboard events: handling game controls.
+
+// Task 11:
+
+// Create a `<div>` with a blue background color and dimensions of 100px by 100px.
+
+// Attach a "keydown" event listener to the entire document.
+
+// When the user presses the "Arrow Up" key (`event.key === "ArrowUp"`), the box's color should change to red.
+
+// When the user presses the "Arrow Down" key, the color should revert to blue.
