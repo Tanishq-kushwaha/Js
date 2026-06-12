@@ -135,3 +135,8 @@ for(let btn of colorBtns){
  });   
 }
 
+// Keyboard Event
+
+input.addEventListener("keydown", function(event) {
+    console.log(event.key); // Dabayi gayi key ka naam dikhayega
+});
