@@ -126,3 +126,9 @@ dabba.addEventListener("click", function(){
 // Run a `for...of` loop to attach an `addEventListener` to every button in that collection.
 
 // Inside the function, use the `this` keyword to implement logic so that whenever a button is clicked, its background color changes to match its `innerText`! >)
+
+let colorBtns = document.querySelectorAll(".colorBtn");
+
+for(let btn of colorBtns){
+    
+}
