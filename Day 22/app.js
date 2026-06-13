@@ -184,3 +184,12 @@ document.addEventListener("keydown", function (event) {
         div1.style.backgroundColor = "blue";
     }
 });
+
+let form = document.querySelector("form");
+
+form.addEventListener("submit", function(event){
+ event.preventDefault();
+ console.log("Submitted");
+});
+
+
