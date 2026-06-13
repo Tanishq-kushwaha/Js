@@ -220,3 +220,5 @@ let head = document.querySelector("h2");
 inputBox.addEventListener("input", function(event){
    head.innerText = inputBox.value;
 });
+
+
