@@ -207,6 +207,16 @@ form.addEventListener("submit", function(event){
 });
 
 
+// Task 13:
+
+// Create an empty `<h2>` tag outside the form in your HTML.
+
+// Attach an event listener to the `#formRegister` input box using JavaScript.
+
+// We want the text inside the `<h2>` tag to update live (instantly) as the user types their name into the input box. (As soon as a letter is typed, it should immediately appear in the `<h2>` tag).
+
+let head = document.querySelector("h2");
+
 
 
 
