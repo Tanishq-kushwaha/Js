@@ -34,6 +34,21 @@ window.addEventListener("scroll", function(){
 
 // - load
 
-
+window.addEventListener("load", function(event) {
+     console.log(event);
+ })
 
 // [Use MDN for help]
+
+
+// Qs2. The Prompt:
+// Create a button on the page using JavaScript. Add an event listener to the button that changes the button’s color to green when it is clicked.
+
+let btn = document.createElement("button");
+btn.innerText = "green";
+document.body.appendChild(btn);
+
+
+btn.addEventListener("click", function(){
+  this.style.backgroundColor = this.innerText;
+});
