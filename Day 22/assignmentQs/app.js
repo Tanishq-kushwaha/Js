@@ -69,5 +69,8 @@ let heading = document.querySelector("h2");
 let inputBox = document.querySelector("input");
 
  inputBox.addEventListener("input", function(){
-   heading.innerText = this.value;
+   let userInput = this.value;
+   let cleaned_variable = userInput.replace(/[^a-zA-Z ]/g, "");
+   this.value = cleaned_variable;
+   heading.innerText = cleaned_variable;
  });
