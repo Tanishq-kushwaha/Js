@@ -219,6 +219,9 @@ let head = document.querySelector("h2");
 
 inputBox.addEventListener("input", function(event){
    head.innerText = inputBox.value;
-});
+}); // use for live tracking
 
 
+// inputBox.addEventListener("change", function(event){
+//    head.innerText = inputBox.value;
+// });
