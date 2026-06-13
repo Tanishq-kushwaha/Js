@@ -185,11 +185,28 @@ document.addEventListener("keydown", function (event) {
     }
 });
 
+
+// Task 12:
+
+// Create an HTML `<form>` containing a text `<input>` field (for the name) and a submit `<button>`. (You may assign an `id` or `class` to the input if you wish).
+
+// Select the form using JavaScript and attach a "submit" event listener using the modern `addEventListener` method.
+
+// Inside the function, first prevent the page from refreshing (using `event.preventDefault()`).
+
+// Retrieve the name entered by the user in the input field using the `.value` property and display an alert saying: "Welcome, [User Name]!".
+
 let form = document.querySelector("form");
+let inputBox = document.querySelector("#formRegister");
+
 
 form.addEventListener("submit", function(event){
  event.preventDefault();
- console.log("Submitted");
+ let name = inputBox.value;
+ alert(`welcome ${name}`);
 });
+
+
+
 
 
