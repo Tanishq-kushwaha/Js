@@ -28,9 +28,12 @@ document.addEventListener("keydown", function(){
 
 // - Scroll
 
-
-
+window.addEventListener("scroll", function(){
+ console.log(window.scrollY);
+});
 
 // - load
+
+
 
 // [Use MDN for help]
