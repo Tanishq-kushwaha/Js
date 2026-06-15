@@ -8,9 +8,9 @@ button.addEventListener("click", function(){
   list.innerText = task;
 
   let dltBtn = document.createElement("button")
-  dttBtn.innerText = "delete"; 
-  dttBtn.classList.add("delete");
-  
+  dltBtn.innerText = "delete"; 
+  dltBtn.classList.add("delete");
+  list.appendChild(dltBtn);
 
   ul.appendChild(list);
   inputBox.value = "";
