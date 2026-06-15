@@ -7,7 +7,7 @@ button.addEventListener("click", function(){
   let item = document.createElement("li");
   item.innerText = task;
 
-  let dltBtn = document.createElement("button")
+  let dltBtn = document.createElement("button");
   dltBtn.innerText = "delete"; 
   dltBtn.classList.add("delete");
   item.appendChild(dltBtn);
@@ -17,11 +17,12 @@ button.addEventListener("click", function(){
  
 });
 
-let dltbtns = document.querySelectorAll(".delete");
+let dltBtns = document.querySelectorAll(".delete");
 
 for(dtlBtn of dltBtns){
     dltBtn.addEventListener("click", function(){
-
+     let par = dtlBtn.parentElement;
+    console.log("delet");
     });
 }
  
