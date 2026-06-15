@@ -4,14 +4,24 @@ const ul = document.querySelector("ul");
 
 button.addEventListener("click", function(){
   let task = inputBox.value;
-  let list = document.createElement("li");
-  list.innerText = task;
+  let item = document.createElement("li");
+  item.innerText = task;
 
   let dltBtn = document.createElement("button")
   dltBtn.innerText = "delete"; 
   dltBtn.classList.add("delete");
-  list.appendChild(dltBtn);
+  item.appendChild(dltBtn);
 
-  ul.appendChild(list);
+  ul.appendChild(item);
   inputBox.value = "";
+ 
 });
+
+let dltbtns = document.querySelectorAll(".delete");
+
+for(dtlBtn of dltBtns){
+    dltBtn.addEventListener("click", function(){
+
+    });
+}
+ 
