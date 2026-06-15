@@ -6,6 +6,9 @@ button.addEventListener("click", function(){
   let task = inputBox.value;
   let list = document.createElement("li");
   list.innerText = task;
+
+  
+
   ul.appendChild(list);
   inputBox.value = "";
 });
