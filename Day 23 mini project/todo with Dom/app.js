@@ -19,10 +19,10 @@ button.addEventListener("click", function(){
 
 let dltBtns = document.querySelectorAll(".delete");
 
-for(dtlBtn of dltBtns){
+for(let dtlBtn of dltBtns){
     dltBtn.addEventListener("click", function(){
-     let par = dtlBtn.parentElement;
-    console.log("delet");
+        let par = dltBtn.parentElement;
+        par.remove();
     });
 }
  
