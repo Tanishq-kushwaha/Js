@@ -17,12 +17,10 @@ button.addEventListener("click", function(){
  
 });
 
- 
 
-for(let dtlBtn of dltBtns){
-    dltBtn.addEventListener("click", function(){
-        let par = dltBtn.parentElement;
-        par.remove();
-    });
+ ul.addEventListener("click", function(event) { 
+    if (event.target.nodeName === "BUTTON") {
+    let listItem = event.target.parentElement;
+    listItem.remove();
 }
- 
+ });
