@@ -17,7 +17,7 @@ button.addEventListener("click", function(){
  
 });
 
-let dltBtns = document.querySelectorAll(".delete");
+ 
 
 for(let dtlBtn of dltBtns){
     dltBtn.addEventListener("click", function(){
