@@ -13,3 +13,8 @@ body{
     border: 10px solid black;
     border-radius: 20%;
 }
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
