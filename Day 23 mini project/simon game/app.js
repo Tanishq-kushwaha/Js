@@ -14,11 +14,17 @@ document.addEventListener("keypress", function () {
     }
 });
 
-
+function btnFlash(btn){
+ btn.classList.add("flash");
+ setTimeout(function(){
+    btn.classList.remove("flash");
+ }, 1000);
+}
 
 function levelUp() {
     level++;
     h2.innerText = (`Level ${level}`);
 
+    //random btn choose
     btnFlash();
 }
