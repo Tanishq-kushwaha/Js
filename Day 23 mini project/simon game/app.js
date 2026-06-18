@@ -29,5 +29,6 @@ function levelUp() {
 
     let randIdx = Math.floor(Math.random()*3);
     let randColor = btns[randIdx];
-    btnFlash();
+    let randbtn = document.querySelector(`.${randColor}`);
+    btnFlash(randbtn);
 }
