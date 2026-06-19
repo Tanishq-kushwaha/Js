@@ -34,11 +34,11 @@ function levelUp() {
 }
 
 function btnPress (){
-    console.log("button was pressed");
+    console.log(this);
 }
 
 let allBtns = document.querySelectorAll(".btn");
 
 for(btn of allBtns){
-    btn.addEventListener("click", btnPress());
+    btn.addEventListener("click", btnPress);
 }
