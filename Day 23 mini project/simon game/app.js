@@ -52,14 +52,14 @@ function checkAns(idx) {
             setTimeout(levelUp, 1000);
         }
     } else {
-       
+
         document.body.style.backgroundColor = "red";
 
-        setTimeout( function() {
+        setTimeout(function () {
             document.body.style.backgroundColor = "white";
         }, 150);
 
-         h2.innerHTML = `Game over! your Score is : <b>${level}</b>, press any key to start.`;
+        h2.innerHTML = `Game over! your Score is : <b>${level}</b>, press any key to start.`;
         reset();
     }
 }
