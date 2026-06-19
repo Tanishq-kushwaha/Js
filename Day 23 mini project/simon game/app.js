@@ -57,7 +57,7 @@ function checkAns(idx) {
         if (score > highScore) {
             highScore = score;
             let h3 = document.querySelector("h3");
-            h3.innerText = `Highest Score : ${highScore }`;
+            h3.innerText = `Highest Score : ${highScore}`;
         }
 
         document.body.style.backgroundColor = "red";
