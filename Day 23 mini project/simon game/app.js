@@ -39,7 +39,6 @@ function levelUp() {
     let randColor = btns[randIdx];
     let randBtn = document.querySelector(`.${randColor}`);
     gameSeq.push(randColor);
-    console.log(gameSeq);
     gameFlash(randBtn);
 }
 
@@ -54,12 +53,13 @@ function checkAns(idx) {
         }
 } else {
         h2.innerText = (`Game over! press any key to start`);
+        
+        reset();
     }
 }
 
 
 function btnPress() {
-    console.log(this);
     let btn = this;
     userFlash(btn);
 
@@ -73,4 +73,12 @@ let allBtns = document.querySelectorAll(".btn");
 
 for (btn of allBtns) {
     btn.addEventListener("click", btnPress);
+}
+
+
+function reset(){
+    started = false;
+    gameSeq = [];
+    userSeq = [];
+    level = 0;
 }
