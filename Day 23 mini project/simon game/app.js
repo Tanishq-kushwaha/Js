@@ -1,7 +1,7 @@
 let gameSeq = [];
 let userSeq = [];
 
-let btns = ["yellow", "red", "purple", "green"];
+let btns = ["yellow", "red", "blue", "green"];
 
 let started = false;
 let level = 0;
@@ -44,7 +44,14 @@ function levelUp() {
 
 
 function checkAns(){
-   console.log("current level : ", level);
+//    console.log("current level : ", level);
+let idx = level-1;
+
+if(userSeq[idx] === gameSeq[idx]){
+    console.log("same value");
+}else{
+    h2.innerText = (`Game over! press any key to start`);
+}
 }
 
 
