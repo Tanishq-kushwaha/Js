@@ -47,7 +47,8 @@ function btnPress (){
     let btn = this;
     userFlash(btn);
      
-    // userColor = 
+    userColor = btn.getAttribute("id");
+    console.log(userColor);
 }
 
 let allBtns = document.querySelectorAll(".btn");
