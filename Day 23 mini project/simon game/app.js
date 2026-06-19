@@ -43,23 +43,25 @@ function levelUp() {
 }
 
 
-function checkAns(){
-//    console.log("current level : ", level);
-let idx = level-1;
+function checkAns() {
+    //    console.log("current level : ", level);
+    let idx = level - 1;
 
-if(userSeq[idx] === gameSeq[idx]){
-    console.log("same value");
-}else{
-    h2.innerText = (`Game over! press any key to start`);
+    if (userSeq[idx] === gameSeq[idx]) {
+        if(userSeq.length == gameSeq.length){
+            levelUp();
+        }
+} else {
+        h2.innerText = (`Game over! press any key to start`);
+    }
 }
-}
 
 
-function btnPress (){
+function btnPress() {
     console.log(this);
     let btn = this;
     userFlash(btn);
-     
+
     userColor = btn.getAttribute("id");
     userSeq.push(userColor);
 
@@ -68,6 +70,6 @@ function btnPress (){
 
 let allBtns = document.querySelectorAll(".btn");
 
-for(btn of allBtns){
+for (btn of allBtns) {
     btn.addEventListener("click", btnPress);
 }
