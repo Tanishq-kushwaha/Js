@@ -55,12 +55,11 @@ function checkAns(idx) {
        
         document.body.style.backgroundColor = "red";
 
-        setTimeout(() => {
+        setTimeout( function() {
             document.body.style.backgroundColor = "white";
         }, 150);
 
-        let score = gameSeq.length;
-         h2.innerText = (`Game over! press any key to start, your Score is : ${score}`);
+         h2.innerHTML = `Game over! your Score is : <b>${level}</b>, press any key to start.`;
         reset();
     }
 }
