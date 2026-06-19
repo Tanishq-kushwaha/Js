@@ -42,6 +42,12 @@ function levelUp() {
     gameFlash(randBtn);
 }
 
+
+function checkAns(){
+   console.log("current level : ", level);
+}
+
+
 function btnPress (){
     console.log(this);
     let btn = this;
@@ -49,6 +55,8 @@ function btnPress (){
      
     userColor = btn.getAttribute("id");
     userSeq.push(userColor);
+
+    checkAns();
 }
 
 let allBtns = document.querySelectorAll(".btn");
