@@ -48,12 +48,16 @@ function checkAns(idx) {
     // let idx = level - 1;
 
     if (userSeq[idx] === gameSeq[idx]) {
-        if(userSeq.length == gameSeq.length){
-           setTimeout(levelUp, 1000);
+        if (userSeq.length == gameSeq.length) {
+            setTimeout(levelUp, 1000);
         }
-} else {
+    } else {
         h2.innerText = (`Game over! press any key to start`);
-        
+        document.body.style.backgroundColor = "red";
+
+        setTimeout(() => {
+            document.body.style.backgroundColor = "white";
+        }, 150);
         reset();
     }
 }
@@ -66,7 +70,7 @@ function btnPress() {
     userColor = btn.getAttribute("id");
     userSeq.push(userColor);
 
-    checkAns(userSeq.length-1);
+    checkAns(userSeq.length - 1);
 }
 
 let allBtns = document.querySelectorAll(".btn");
@@ -76,7 +80,7 @@ for (btn of allBtns) {
 }
 
 
-function reset(){
+function reset() {
     started = false;
     gameSeq = [];
     userSeq = [];
