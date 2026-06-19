@@ -52,12 +52,15 @@ function checkAns(idx) {
             setTimeout(levelUp, 1000);
         }
     } else {
-        h2.innerText = (`Game over! press any key to start`);
+       
         document.body.style.backgroundColor = "red";
 
         setTimeout(() => {
             document.body.style.backgroundColor = "white";
         }, 150);
+
+        let score = gameSeq.length;
+         h2.innerText = (`Game over! press any key to start, your Score is : ${score}`);
         reset();
     }
 }
