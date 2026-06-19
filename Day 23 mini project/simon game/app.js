@@ -74,6 +74,9 @@ function checkAns(idx) {
 
 
 function btnPress() {
+    if (started == false) {
+        return; 
+    }
     let btn = this;
     userFlash(btn);
 
