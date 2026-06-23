@@ -1,3 +1,4 @@
+// call stack
 function hello(){
     console.log("inside hello fnx");
     console.log("Hello");
