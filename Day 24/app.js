@@ -53,3 +53,19 @@ changeColor("red", 1000, () => {
 });
 }
 repeat();
+
+
+
+function bgColorChange(color, delay, nextColor){
+    setTimeout(()=>{
+    body.style.backgroundColor = color;
+    if(nextColor) nextColor();
+    }, delay);
+}
+
+function loop(){
+bgColorChange("blue", 100, ()=>{
+           bgColorChange("red", 100, loop);
+});
+}
+loop();
