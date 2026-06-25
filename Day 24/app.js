@@ -31,10 +31,12 @@ three();
 // callback hell
 
 let h1 = document.querySelector("h1");
+let body = document.querySelector("body")
 
 function changeColor(color, delay, nextColorChange) {
     setTimeout(() => {
         h1.style.color = color;
+        // body.style.backgroundColor = color;
         if (nextColorChange) nextColorChange();
     }, delay);
 }
