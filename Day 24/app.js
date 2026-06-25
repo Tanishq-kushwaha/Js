@@ -1,58 +1,58 @@
-// call stack
-// function hello(){
-//     console.log("inside hello fnx");
-//     console.log("Hello");
+// // call stack
+// // function hello(){
+// //     console.log("inside hello fnx");
+// //     console.log("Hello");
+// // }
+
+// // function demo(){
+// //     console.log("calling hello fnx");
+// //     hello();
+// // }
+// // console.log("calling demo fnx");
+// // demo();
+// // console.log("finished");
+
+// // visualizing the call stack
+
+// function one() {
+//     return 1;
 // }
-
-// function demo(){
-//     console.log("calling hello fnx");
-//     hello();
+// function two() {
+//     return one() + one();
 // }
-// console.log("calling demo fnx");
-// demo();
-// console.log("finished");
+// function three() {
+//     let ans = two() + one();
+//     console.log(ans);
+// }
+// console.log("JS Loaded");
+// debugger;
+// three();
 
-// visualizing the call stack
+// // callback hell
 
-function one() {
-    return 1;
-}
-function two() {
-    return one() + one();
-}
-function three() {
-    let ans = two() + one();
-    console.log(ans);
-}
-console.log("JS Loaded");
-debugger;
-three();
+// let h1 = document.querySelector("h1");
+// let body = document.querySelector("body")
 
-// callback hell
+// function changeColor(color, delay, nextColorChange) {
+//     setTimeout(() => {
+//         h1.style.color = color;
+//         // body.style.backgroundColor = color;
+//         if (nextColorChange) nextColorChange();
+//     }, delay);
+// }
+// function repeat() {
+//     changeColor("red", 1000, () => {
+//         changeColor("orange", 1000, () => {
+//             changeColor("green", 1000, () => {
+//                 changeColor("pink", 1000, () => {
+//                     changeColor("blue", 1000, repeat);
 
-let h1 = document.querySelector("h1");
-let body = document.querySelector("body")
-
-function changeColor(color, delay, nextColorChange) {
-    setTimeout(() => {
-        h1.style.color = color;
-        // body.style.backgroundColor = color;
-        if (nextColorChange) nextColorChange();
-    }, delay);
-}
-function repeat() {
-    changeColor("red", 1000, () => {
-        changeColor("orange", 1000, () => {
-            changeColor("green", 1000, () => {
-                changeColor("pink", 1000, () => {
-                    changeColor("blue", 1000, repeat);
-
-                });
-            });
-        });
-    });
-}
-repeat();
+//                 });
+//             });
+//         });
+//     });
+// }
+// repeat();
 
 
 
@@ -71,3 +71,5 @@ repeat();
 //     });
 // }
 // flow();
+
+
