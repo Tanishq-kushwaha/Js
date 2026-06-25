@@ -38,13 +38,16 @@ function changeColor(color, delay, nextColorChange) {
         if (nextColorChange) nextColorChange();
     }, delay);
 }
-
+function repeat(){
 changeColor("red", 1000, () => {
     changeColor("orange", 1000, () => {
         changeColor("green", 1000, () => {
             changeColor("pink", 1000, () => {
-                changeColor("blue", 1000);
+                changeColor("blue", 1000, repeat);
+               
             });
         });
     });
 });
+}
+repeat();
