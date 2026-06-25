@@ -27,3 +27,8 @@ function three(){
 console.log("JS Loaded");
 debugger;
 three();
+
+// callback hell
+
+let h1 = document.querySelector("h1");
+
