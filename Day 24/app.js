@@ -56,18 +56,18 @@ repeat();
 
 
 
-function bgColorChange(color, delay, nextColor) {
-    setTimeout(() => {
-        body.style.backgroundColor = color;
-        if (nextColor) nextColor();
-    }, delay);
-}
+// function bgColorChange(color, delay, nextColor) {
+//     setTimeout(() => {
+//         body.style.backgroundColor = color;
+//         if (nextColor) nextColor();
+//     }, delay);
+// }
 
-function flow() {
-    bgColorChange("blue", 100, () => {
-        bgColorChange("red", 100, () => {
-             bgColorChange("lime", 100, flow )
-        });
-    });
-}
-flow();
+// function flow() {
+//     bgColorChange("blue", 100, () => {
+//         bgColorChange("red", 100, () => {
+//              bgColorChange("lime", 100, flow )
+//         });
+//     });
+// }
+// flow();
