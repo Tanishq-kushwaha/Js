@@ -66,7 +66,7 @@ function bgColorChange(color, delay, nextColor) {
 function flow() {
     bgColorChange("blue", 100, () => {
         bgColorChange("red", 100, () => {
-
+             bgColorChange("lime", 100, flow )
         });
     });
 }
