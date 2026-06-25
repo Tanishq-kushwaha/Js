@@ -40,32 +40,34 @@ function changeColor(color, delay, nextColorChange) {
         if (nextColorChange) nextColorChange();
     }, delay);
 }
-function repeat(){
-changeColor("red", 1000, () => {
-    changeColor("orange", 1000, () => {
-        changeColor("green", 1000, () => {
-            changeColor("pink", 1000, () => {
-                changeColor("blue", 1000, repeat);
-               
+function repeat() {
+    changeColor("red", 1000, () => {
+        changeColor("orange", 1000, () => {
+            changeColor("green", 1000, () => {
+                changeColor("pink", 1000, () => {
+                    changeColor("blue", 1000, repeat);
+
+                });
             });
         });
     });
-});
 }
 repeat();
 
 
 
-function bgColorChange(color, delay, nextColor){
-    setTimeout(()=>{
-    body.style.backgroundColor = color;
-    if(nextColor) nextColor();
+function bgColorChange(color, delay, nextColor) {
+    setTimeout(() => {
+        body.style.backgroundColor = color;
+        if (nextColor) nextColor();
     }, delay);
 }
 
-function loop(){
-bgColorChange("blue", 100, ()=>{
-           bgColorChange("red", 100, loop);
-});
+function flow() {
+    bgColorChange("blue", 100, () => {
+        bgColorChange("red", 100, () => {
+
+        });
+    });
 }
-loop();
+flow();
