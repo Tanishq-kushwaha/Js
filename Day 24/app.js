@@ -72,14 +72,23 @@
 // }
 // flow();
 
-function saveToDb(data, success, failure){
-    let internetSpeed = Math.floor(Math.random()*10)+1;
-    if(internetSpeed > 4){
+function saveToDb(data, success, failure) {
+    let internetSpeed = Math.floor(Math.random() * 10) + 1;
+    if (internetSpeed > 4) {
         success();
-    }else{
+    } else {
         failure();
     }
 }
 
-
+saveToDb("Tanishq kushwaha", () => {
+    console.log("data1 is saved.");
+    saveToDb("Branch", () => {
+        console.log("data2 is saved");
+    }, () => {
+        console.log("data2 saving failed");
+    });
+}, () => {
+    console.log(" data1 saving failed.");
+});
 
