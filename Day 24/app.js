@@ -96,12 +96,21 @@
 // Promises
 
 function saveToDb(data) {
-  return new Promise((resolve, reject)=>{
-    let internetSpeed = Math.floor(Math.random()*10)+1;
-    if(internetSpeed > 4){
-        resolve("Success : data saved");
-    }else{
-        reject("failure : week internet speed");
-    }
-  });
+    return new Promise((resolve, reject) => {
+        let internetSpeed = Math.floor(Math.random() * 10) + 1;
+        if (internetSpeed > 4) {
+            resolve("Success : data saved");
+        } else {
+            reject("failure : week internet speed");
+        }
+    });
 }
+
+let request = saveToDb("tanishq kushwaha");
+
+request.then(() => {
+    console.log("Promise was resolved");
+})
+    .catch(() => {
+        console.log("Promise was rejected");
+    });
