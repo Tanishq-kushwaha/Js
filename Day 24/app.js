@@ -30,16 +30,16 @@
 
 // // callback hell
 
-// let h1 = document.querySelector("h1");
-// let body = document.querySelector("body")
+let h1 = document.querySelector("h1");
+let body = document.querySelector("body")
 
-// function changeColor(color, delay, nextColorChange) {
-//     setTimeout(() => {
-//         h1.style.color = color;
-//         // body.style.backgroundColor = color;
-//         if (nextColorChange) nextColorChange();
-//     }, delay);
-// }
+function changeColor(color, delay, nextColorChange) {
+    setTimeout(() => {
+        h1.style.color = color;
+        // body.style.backgroundColor = color;
+        if (nextColorChange) nextColorChange();
+    }, delay);
+}
 // function repeat() {
 //     changeColor("red", 1000, () => {
 //         changeColor("orange", 1000, () => {
@@ -95,16 +95,16 @@
 
 // Promises
 
-function saveToDb(data) {
-    return new Promise((resolve, reject) => {
-        let internetSpeed = Math.floor(Math.random() * 10) + 1;
-        if (internetSpeed > 4) {
-            resolve("Success : data saved");
-        } else {
-            reject("failure : week internet speed");
-        }
-    });
-}
+// function saveToDb(data) {
+//     return new Promise((resolve, reject) => {
+//         let internetSpeed = Math.floor(Math.random() * 10) + 1;
+//         if (internetSpeed > 4) {
+//             resolve("Success : data saved");
+//         } else {
+//             reject("failure : week internet speed");
+//         }
+//     });
+// }
 
 // let request = saveToDb("tanishq kushwaha");
 
@@ -118,21 +118,21 @@ function saveToDb(data) {
 
 // promise chaining
 
-saveToDb("Tanishq").then((result) => {
-    console.log("Data1 is saved");
-    console.log("result: ",result);
-    return saveToDb("Hello world");
-})
-    .then((result) => {
-        console.log("Data2 is saved");
-        console.log("result: ",result);
-        return saveToDb("kushwaha");
-    })
-    .then((result) => {
-        console.log("Data3 is saved");
-        console.log("result: ",result); 
-    })
-    .catch((error) => {
-        console.log("some promise rejected");
-        console.log("error: ",error); 
-});
+// saveToDb("Tanishq").then((result) => {
+//     console.log("Data1 is saved");
+//     console.log("result: ",result);
+//     return saveToDb("Hello world");
+// })
+//     .then((result) => {
+//         console.log("Data2 is saved");
+//         console.log("result: ",result);
+//         return saveToDb("kushwaha");
+//     })
+//     .then((result) => {
+//         console.log("Data3 is saved");
+//         console.log("result: ",result); 
+//     })
+//     .catch((error) => {
+//         console.log("some promise rejected");
+//         console.log("error: ",error); 
+// });
