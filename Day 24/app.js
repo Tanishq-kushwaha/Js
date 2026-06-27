@@ -124,6 +124,10 @@ saveToDb("Tanishq").then(() => {
 })
 .then(()=>{
     console.log("Data2 is saved");
+    return saveToDb("kushwaha");
+})
+.then(()=>{
+    console.log("Data3 is saved");
 })
 .catch(()=>{
     console.log("some promise rejected");
