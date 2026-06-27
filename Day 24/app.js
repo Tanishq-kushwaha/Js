@@ -118,3 +118,13 @@ function saveToDb(data) {
 
 // promise chaining
 
+saveToDb("Tanishq").then(() => {
+  console.log("Data1 is saved");
+  return saveToDb("Hello world");
+})
+.then(()=>{
+    console.log("Data2 is saved");
+})
+.catch(()=>{
+    console.log("some promise rejected");
+});
