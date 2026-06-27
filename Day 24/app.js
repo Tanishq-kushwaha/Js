@@ -33,13 +33,15 @@
 let h1 = document.querySelector("h1");
 let body = document.querySelector("body")
 
-function changeColor(color, delay, nextColorChange) {
-    setTimeout(() => {
-        h1.style.color = color;
-        // body.style.backgroundColor = color;
-        if (nextColorChange) nextColorChange();
-    }, delay);
+function changeColor(color, delay) {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            h1.style.color = color;
+            if (nextColorChange) nextColorChange();
+        }, delay);
+    });
 }
+
 // function repeat() {
 //     changeColor("red", 1000, () => {
 //         changeColor("orange", 1000, () => {
@@ -130,9 +132,9 @@ function changeColor(color, delay, nextColorChange) {
 //     })
 //     .then((result) => {
 //         console.log("Data3 is saved");
-//         console.log("result: ",result); 
+//         console.log("result: ",result);
 //     })
 //     .catch((error) => {
 //         console.log("some promise rejected");
-//         console.log("error: ",error); 
+//         console.log("error: ",error);
 // });
