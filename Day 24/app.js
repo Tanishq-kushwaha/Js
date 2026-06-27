@@ -92,3 +92,14 @@
 //     console.log(" data1 saving failed.");
 // });
 
+
+
+
+function saveToDb(data) {
+    let internetSpeed = Math.floor(Math.random() * 10) + 1;
+    if (internetSpeed > 4) {
+        success();
+    } else {
+        failure();
+    }
+}
