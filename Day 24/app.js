@@ -106,11 +106,25 @@ function saveToDb(data) {
     });
 }
 
-let request = saveToDb("tanishq kushwaha");
+// let request = saveToDb("tanishq kushwaha");
 
-request.then(() => {
-    console.log("Promise was resolved");
+// request.then(() => {
+//     console.log("Promise was resolved");
+// })
+//     .catch(() => {
+//         console.log("Promise was rejected");
+//     });
+
+
+// promise chaining
+
+saveToDb("Tanishq").then(() => {
+  console.log("Data1 is saved");
+  return saveToDb("Hello world");
 })
-    .catch(() => {
-        console.log("Promise was rejected");
-    });
+.then(()=>{
+    console.log("Data2 is saved");
+})
+.catch(()=>{
+    console.log("some promise rejected");
+});
