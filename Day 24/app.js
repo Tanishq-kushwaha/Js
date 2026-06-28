@@ -65,6 +65,8 @@ changeColor("red", 1000)
     .catch(() => {
         console.log("syntax error");
     });
+
+    
 // function repeat() {
 //     changeColor("red", 1000, () => {
 //         changeColor("orange", 1000, () => {
