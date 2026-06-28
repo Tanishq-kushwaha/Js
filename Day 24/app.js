@@ -42,29 +42,39 @@ function changeColor(color, delay) {
     });
 }
 
-changeColor("red", 1000)
-    .then(() => {
-        console.log("red color was completed");
-        return changeColor("orange", 1000);
-    })
-    .then(() => {
-        console.log("orange color was completed");
-        return changeColor("green", 1000);
-    })
-    .then(() => {
-        console.log("green color was completed");
-        return changeColor("pink", 1000);
-    })
-    .then(() => {
-        console.log("Pink color was completed");
-        return changeColor("blue", 1000);
-    })
-    .then(() => {
-        console.log("blue color was completed");
-    })
-    .catch(() => {
-        console.log("syntax error");
-    });
+async function demo() {
+  changeColor("violet", 1000)
+  changeColor("indigo", 1000)
+  changeColor("blue", 1000)
+  changeColor("green", 1000)
+  changeColor("yellow", 1000)
+  changeColor("orange", 1000)
+  changeColor("red", 1000)
+    
+}
+// changeColor("red", 1000)
+//     .then(() => {
+//         console.log("red color was completed");
+//         return changeColor("orange", 1000);
+//     })
+//     .then(() => {
+//         console.log("orange color was completed");
+//         return changeColor("green", 1000);
+//     })
+//     .then(() => {
+//         console.log("green color was completed");
+//         return changeColor("pink", 1000);
+//     })
+//     .then(() => {
+//         console.log("Pink color was completed");
+//         return changeColor("blue", 1000);
+//     })
+//     .then(() => {
+//         console.log("blue color was completed");
+//     })
+//     .catch(() => {
+//         console.log("syntax error");
+//     });
 
     
 // function repeat() {
