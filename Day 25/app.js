@@ -6,13 +6,13 @@ async function greet() {
 
 greet().then((result) => {
     console.log("fulfilled");
-    console.log("Result was:",result);
+    console.log("Result was:", result);
 })
-.catch(()=>{
+    .catch(() => {
         console.log("some error");
     });
 
 
-    let demo = async ()=>{
-        return 5;
-    }
+let demo = async () => {
+    return 5;
+}
