@@ -1,7 +1,13 @@
-async function greet(){
+async function greet() {
     // throw "error";
     return "hello";
 }
 
 
-greet
+greet().then((result) => {
+    console.log("fulfilled");
+    console.log("Result was:",result);
+})
+.catch(()=>{
+        console.log("some error");
+    });
