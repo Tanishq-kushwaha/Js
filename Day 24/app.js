@@ -43,15 +43,16 @@ function changeColor(color, delay) {
 }
 
 async function demo() {
- await changeColor("violet", 1000)
-  await changeColor("indigo", 1000)
-  await changeColor("blue", 1000)
-  await changeColor("green", 1000)
-  await changeColor("yellow", 1000)
-  await changeColor("orange", 1000)
-   changeColor("red", 1000)
-    
+ await changeColor("violet", 1000);
+  await changeColor("indigo", 1000);
+  await changeColor("blue", 1000);
+  await changeColor("green", 1000);
+  await changeColor("yellow", 1000);
+  await changeColor("orange", 1000);
+   changeColor("red", 1000);
+   demo();
 }
+demo();
 // changeColor("red", 1000)
 //     .then(() => {
 //         console.log("red color was completed");
