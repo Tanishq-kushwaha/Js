@@ -40,7 +40,6 @@ async function demo() {
 }
 
 
-
 // async function demo() {
 //     try{
 //    await getNum();
