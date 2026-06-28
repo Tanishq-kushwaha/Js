@@ -43,13 +43,13 @@ function changeColor(color, delay) {
 }
 
 async function demo() {
-  changeColor("violet", 1000)
-  changeColor("indigo", 1000)
-  changeColor("blue", 1000)
-  changeColor("green", 1000)
-  changeColor("yellow", 1000)
-  changeColor("orange", 1000)
-  changeColor("red", 1000)
+ await changeColor("violet", 1000)
+  await changeColor("indigo", 1000)
+  await changeColor("blue", 1000)
+  await changeColor("green", 1000)
+  await changeColor("yellow", 1000)
+  await changeColor("orange", 1000)
+   changeColor("red", 1000)
     
 }
 // changeColor("red", 1000)
