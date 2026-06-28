@@ -16,3 +16,4 @@ greet().then((result) => {
 let demo = async () => {
     return 5;
 }
+
