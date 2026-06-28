@@ -11,3 +11,8 @@ greet().then((result) => {
 .catch(()=>{
         console.log("some error");
     });
+
+
+    let demo = async ()=>{
+        return 5;
+    }
