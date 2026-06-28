@@ -28,9 +28,18 @@ function getNum() {
 }
 
 async function demo() {
+    try{
    await getNum();
    await getNum();
+   throw "error";
    await getNum();
    await getNum();
-       getNum();
+   await  getNum();
+    } catch{
+        console.log("some eroor");
+    }
+  let a = 5;
+  console.log(a); 
 }
+
+
