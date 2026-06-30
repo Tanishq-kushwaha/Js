@@ -62,8 +62,8 @@ let validRes = JSON.parse(jsonRes);
 
 console.log(validRes.fact);
 
-student = {
-    name = "tanishq",
-    branch = "IT",
-    marks = 95,
+let student = {
+    name : "tanishq",
+    branch : "IT",
+    marks : 95,
 };
