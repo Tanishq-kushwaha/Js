@@ -61,3 +61,9 @@ let jsonRes = '{"fact":"The Maine Coon is 4 to 5 times larger than the Singapur,
 let validRes = JSON.parse(jsonRes);
 
 console.log(validRes.fact);
+
+student = {
+    name = "tanishq",
+    branch = "IT",
+    marks = 95,
+};
