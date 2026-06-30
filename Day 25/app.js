@@ -56,3 +56,4 @@ async function demo() {
 // }
 
 
+let jsonRes = '{"fact":"Siamese kittens are born white because of the heat inside the mothers uterus before birth. This heat keeps the kittens hair from darkening on the points.","length":155}';
