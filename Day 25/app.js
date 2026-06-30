@@ -67,3 +67,7 @@ let student = {
     branch : "IT",
     marks : 95,
 };
+
+
+let studentData = JSON.stringify(student);
+console.log(studentData);
