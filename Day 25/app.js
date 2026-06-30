@@ -56,4 +56,8 @@ async function demo() {
 // }
 
 
-let jsonRes = '{"fact":"Siamese kittens are born white because of the heat inside the mothers uterus before birth. This heat keeps the kittens hair from darkening on the points.","length":155}';
+let jsonRes = '{"fact":"The Maine Coon is 4 to 5 times larger than the Singapur, the smallest breed of cat.","length":84}';
+
+let validRes = JSON.parse(jsonRes);
+
+console.log(validRes.fact);
