@@ -75,4 +75,11 @@
 // first API request
 
 let url = "https://catfact.ninja/fact";
+
 fetch(url)
+.then((res)=> {
+    console.log(res);
+})
+.catch((err)=>{
+    console.log("error : ",err);
+});
