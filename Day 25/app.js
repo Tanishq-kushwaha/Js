@@ -34,7 +34,7 @@
 //    await getNum();
 //    await getNum();
 //    await  getNum();
-   
+
 //   let a = 5;
 //   console.log(a); 
 // }
@@ -77,9 +77,12 @@
 let url = "https://catfact.ninja/fact";
 
 fetch(url)
-.then((res)=> {
-    console.log(res);
-})
-.catch((err)=>{
-    console.log("error : ",err);
-});
+    .then((res) => {
+        console.log(res);
+        res.json().then((data) => {
+            console.log(data);
+        });
+    })
+    .catch((err) => {
+        console.log("error : ", err);
+    });
