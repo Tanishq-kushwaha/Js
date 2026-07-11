@@ -1,3 +1,6 @@
+let btn = document.querySelector("button");
+
+
 let url = "https://catfact.ninja/fact";
 
 async function  getFact() {
