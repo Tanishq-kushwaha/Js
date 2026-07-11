@@ -1,9 +1,10 @@
 let btn = document.querySelector("button");
-let para = document.querySelector("p");
 
 
-btn.addEventListener("click", ()=>{
-  let fact =  getFact();
+btn.addEventListener("click", async()=>{
+    let fact = await getFact();
+    let para = document.querySelector("#result");
+    para.innerText = fact;
 });
 
 let url = "https://catfact.ninja/fact";
@@ -11,8 +12,9 @@ let url = "https://catfact.ninja/fact";
 async function  getFact() {
     try{
         let res = await axios.get(url);
-        console.log(res.data.fact);
+        return res.data.fact;
     }catch(e){
         console.log("ERROR - ", e);
+        return "no fact found";
     }
 }
