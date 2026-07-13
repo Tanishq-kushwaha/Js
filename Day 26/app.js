@@ -66,10 +66,15 @@ let input = document.querySelector("input");
 buTon.addEventListener("click", async () => {
     let country = input.value;
     console.log(country);
-    getColleges(country);
-
+   let colArr = await getColleges(country);
+   show(colArr);
 });
 
+function show(colArr){
+  for(col of colArr){
+    console.log(col.name);
+  }
+}
 async function getColleges(country) {
     try {
         let res = await axios.get(url3 + country);
