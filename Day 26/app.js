@@ -1,4 +1,4 @@
-let btn = document.querySelector("button");
+let btn = document.querySelector("#cat");
 
 
 btn.addEventListener("click", async()=>{
