@@ -53,3 +53,17 @@ async function getJoke() {
         console.log(err);
     }
 }
+
+
+let url3 = "http://universities.hipolabs.com/search?name=";
+
+let country = "nepal";
+async function getCollege() {
+    try{
+        let res = await axios.get(url3+country);
+        console.log(res);
+    }
+    catch(err){
+        console.log(err);
+    }
+}
