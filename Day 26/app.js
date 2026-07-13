@@ -1,3 +1,4 @@
+// cat fact API section
 let btn = document.querySelector("#cat");
 
 btn.addEventListener("click", async () => {
@@ -18,7 +19,7 @@ async function getFact() {
     }
 }
 
-
+// Dog images API section
 
 let btn2 = document.querySelector("#dogImg");
 
@@ -42,6 +43,7 @@ async function getImg() {
     }
 }
 
+// Dad joke API section 
 
 const joke = "https://icanhazdadjoke.com/";
 async function getJoke() {
@@ -54,16 +56,27 @@ async function getJoke() {
     }
 }
 
+// University API section 
 
 let url3 = "http://universities.hipolabs.com/search?name=";
 
-let country = "nepal";
-async function getCollege() {
-    try{
-        let res = await axios.get(url3+country);
-        console.log(res);
+let buTon = document.querySelector("#country");
+let input = document.querySelector("input");
+
+buTon.addEventListener("click", async () => {
+    let country = input.value;
+    console.log(country);
+    getColleges(country);
+
+});
+
+async function getColleges(country) {
+    try {
+        let res = await axios.get(url3 + country);
+        return res.data;
     }
-    catch(err){
+    catch (err) {
         console.log(err);
+        return [];
     }
 }
