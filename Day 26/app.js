@@ -25,14 +25,16 @@ let btn2 = document.querySelector("#dogImg");
 let url2 = "https://dog.ceo/api/breeds/image/random";
 
 btn2.addEventListener("click", async()=>{
-
+let link = await getImg();
+let img = document.querySelector("#imgResult");
+img.src = link;
 });
 
 
 async function getImg() {
     try{
         let res = await axios(url2);
-        return res.data;
+        return res.data.message;
     }catch(e){
         console.log("ERROR - ", e);
         return "no Image found";
