@@ -66,14 +66,16 @@ let input = document.querySelector("input");
 buTon.addEventListener("click", async () => {
     let country = input.value;
     console.log(country);
-   let colArr = await getColleges(country);
-   show(colArr);
+    let colArr = await getColleges(country);
+    let names = show(colArr);
+    let ul = document.querySelector("#list");
+    ul.innerText = names;
 });
 
-function show(colArr){
-  for(col of colArr){
-    console.log(col.name);
-  }
+function show(colArr) {
+    for (let col of colArr) {
+        return col.name;
+    }
 }
 async function getColleges(country) {
     try {
