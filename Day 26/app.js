@@ -68,13 +68,16 @@ buTon.addEventListener("click", async () => {
     console.log(country);
     let colArr = await getColleges(country);
     let names = show(colArr);
-    let ul = document.querySelector("#list");
-    ul.innerText = names;
+    
 });
 
 function show(colArr) {
+    let ul = document.querySelector("#list");
+    ul.innerHTML = "";
     for (let col of colArr) {
-        return col.name;
+        let li = document.createElement("li");
+        li.innerText = col.name;
+        ul.appendChild(li);
     }
 }
 async function getColleges(country) {
