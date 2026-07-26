@@ -26,6 +26,8 @@ Clone the repo
 ```bash
 git clone https://github.com/Tanishq-kushwaha/Js.git
 
+---
+
 ## 📚 Topics Covered
 Variables, Operators & Template Literals
 Conditionals (if-else, switch)
