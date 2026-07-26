@@ -22,8 +22,16 @@ My personal JavaScript learning journey — day-wise practice, assignments and m
 
 ---
 
-## 🛠️ How to Run
-
-1. Clone the repo
+Clone the repo
 ```bash
 git clone https://github.com/Tanishq-kushwaha/Js.git
+
+## 📚 Topics Covered
+Variables, Operators & Template Literals
+Conditionals (if-else, switch)
+Strings & Arrays
+Loops & Functions
+DOM Manipulation & Events
+Mini Projects
+
+Author: Tanishq Kushwaha
