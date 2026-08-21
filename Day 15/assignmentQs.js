@@ -47,10 +47,10 @@ console.log(ans1);
 
 // Qs6. Write a JavaScript program to check if an element exists in an array or not.
 let arr1 = ["tanishq",1,2,3,4,5,6,7,8,9,"hello"]; // ik array le liya.
-let item = 4; // ye wo item hai jisey array me find karna hai.
-// if( arr1.indexOf(item)!= -1 )
+let item = 4; // This is the item to be found in the array.
+// if (arr1.indexOf(item) != -1)
 
-if(arr1.includes(item)){  // ye bhi use kar sakte hai
+if(arr1.includes(item)){ // You can use this too.
    console.log("yes available");
 }
 else{
