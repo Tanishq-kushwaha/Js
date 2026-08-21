@@ -153,8 +153,8 @@ console.log(str.slice(7));
 // Q13. String — replace & repeat
 // let str = "I love Coding";
 
-// "love" ko "enjoy" se replace karo
-// "Ha" ko 4 baar repeat karo
+// Replace "Love" with "Enjoy"
+// Repeat "Ha" 4 times
 
 console.log(str.replace("Love", "enjoy"));
 let ver = "Ha";
@@ -163,10 +163,10 @@ console.log(ver.repeat(4));
 // Q14. Array Methods — push, pop, unshift, shift
 // let cars = ["audi", "bmw", "maruti"];
 
-// "toyota" end mein add karo
-// Start se ek item hata do (aur print karo kya hata)
-// "ferrari" beginning mein add karo
-// Final array print karo
+// Add "Toyota" at the end
+// Remove one item from the start (and print the result)
+// Add "Ferrari" at the beginning
+// Print the final array
 let cars = ["audi", "bmw", "maruti"];
 cars.push("toyota");
 cars.shift();
@@ -177,7 +177,7 @@ console.log(cars);
 //  Q15. Array — includes & indexOf
 // let languages = ["HTML", "CSS", "JavaScript", "Python"];
 
-// "CSS" included hai? (true/false print karo)
+// Is "CSS" included? (Print True/False)
 
 let languages = ["HTML", "CSS", "JavaScript", "Python"];
 if (languages.indexOf("CSS") === -1) {
