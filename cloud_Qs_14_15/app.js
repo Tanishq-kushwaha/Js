@@ -285,13 +285,13 @@ else {
 // Q20. Marks Sorter
 // let scores = [45, 12, 89, 34, 67, 23, 99, 56];
 
-// Ascending order mein sort karo (chote se bade) → scores.sort((a,b) => a-b)
-// Descending order mein sort karo (bade se chote) → scores.sort((a,b) => b-a)
-// Dono print karo
+// Sort in ascending order (smallest to largest) → scores.sort((a,b) => a-b)
+// Sort in descending order (largest to smallest) → scores.sort((a,b) => b-a)
+// Print both
 
 let scores = [45, 12, 89, 34, 67, 23, 99, 56];
 console.log(scores.sort((a, b) => a - b));
 console.log(scores.sort((a, b) => b - a));
 
 
-// test khtam ab muzko batao meri galtiyan or review do
+// The test is over; now tell me my mistakes and give me a review.
