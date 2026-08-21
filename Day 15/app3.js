@@ -1,13 +1,13 @@
 // array method
-// indexof -> index no. ke liye upyoog karen
+// indexof -> Use for the index.
 let primary = ["red", "yellow", "blue"];
 // primary.indexOf("yellow");
 // primary.indexOf("yellow");
 
-// includes-> search for a value ya to value true hogi ya to false
+// includes-> Search for a value; the result will be either true or false.
 primary.includes("red");
 
-// concal -> merge 2 array
+// concat -> merge 2 array
 let secondary = ["orange", "green", "violet"];
 let colors = primary.concat(secondary);
 
