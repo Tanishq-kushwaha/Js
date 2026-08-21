@@ -1,6 +1,6 @@
 // Given the string let mantra = "Focus, Strategy, Success, Repeat";, write the code to find the exact starting index of the word "Success".
 let mantra = "Focus, Strategy, Success, Repeat";
-let print = mantra.indexOf("Faliar");
+let print = mantra.indexOf("Failed");
 console.log(print);
 
 // Time is money! Instead of writing multiple lines of code, how can you use method chaining to take the string let rawData = "   profits   ";, strip away the empty spaces, and convert it completely to uppercase in just one single line of code?
