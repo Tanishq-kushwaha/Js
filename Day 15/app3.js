@@ -22,23 +22,23 @@ primary.reverse();
 
 
 // splice in array
-let color1 = ["violet","indigo","blue","green","yellow","orange","red"];
-//color1.splice(2);  // index 2 tak dlt karne ke liye 
+let color1 = ["violet", "indigo", "blue", "green", "yellow", "orange", "red"];
+//color1.splice(2);  // To delete up to index 2
 // color1.splice(0,0,"white");
 
 
 // sort in array 
-let days = ["monday","sunday","wednesday","tuesday"];
+let days = ["monday", "sunday", "wednesday", "tuesday"];
 // days.sort();
 
 
 let numbers = [10, 1, 21, 2];
 
-// Ascending (chhote se bade)
+// Ascending (smallest to largest)
 numbers.sort((a, b) => a - b);
 // Output: [1, 2, 10, 21] ✅
 
-// Descending (bade se chhote)
+// Descending (largest to smaller)
 numbers.sort((a, b) => b - a);
 // Output: [21, 10, 2, 1] ✅
 
@@ -48,12 +48,12 @@ numbers.sort((a, b) => b - a);
 // for the given start state of an array change it to final form splice method 
 // start -> ['january','july','march','august']
 // final -> ['july','june','march','august']
-let months = ['january','july','march','august'];
+let months = ['january', 'july', 'march', 'august'];
 
 // months.splice(0,2,"july","june");
 
 // return thr indexof the "javascript" from the given array if it was reversed
-let lang = ["C","C++","html","javascript","python","java","C#","sql"];
+let lang = ["C", "C++", "html", "javascript", "python", "java", "C#", "sql"];
 
 // let index = lang.reverse().indexOf("javascript");
 
