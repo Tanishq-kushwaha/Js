@@ -252,9 +252,9 @@ else {
 // Q18. Shopping Cart
 // let cart = ["apple", "bread", "milk", "eggs"];
 
-// "butter" end mein add karo
-// "bread" ka index nikalo, phir usse "cheese" se replace karo (splice use karo)
-// Final cart print karo
+// Add "Butter" at the end
+// Find the index of "Bread", then replace it with "Cheese" (use splice)
+// Print the final cart
 let cart = ["apple", "bread", "milk", "eggs"];
 
 cart.push("butter"); //butter ko add kiya 
@@ -272,8 +272,8 @@ console.log(cart);
 // password.length > 8
 // password.includes("@")
 
-// Dono sahi → "Strong password"
-// Warna → "Weak password"
+// Both are correct. → "Strong password"
+// Otherwise → "Weak password"
 let password = "Hello@123";
 if (password.length > 8 && password.includes("@")) {
     console.log("Strong password");
