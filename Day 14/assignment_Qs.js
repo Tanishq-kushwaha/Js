@@ -23,7 +23,7 @@ let quarter = 1;
         console.log("April , May , June ");
         break;
     case 3:
-        console.log("July , August , Septmber ");
+        console.log("July , August , September ");
         break;
     case 4:
         console.log("October , November , December");
