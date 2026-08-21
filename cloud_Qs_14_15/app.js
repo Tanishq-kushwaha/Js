@@ -1,17 +1,17 @@
 // // Q1. Template Literals
-// Yeh 2 variables hain:
+//Here are 2 variables:
 // let item = "Pizza";
-// let price = 150;
-// Template literal use karke print karo:
+//let price = 150;
+//print using template literal:
 // "Item: Pizza, Price: 150 rupees"
 let item = "Pizza";
 let price = 150;
 console.log(`${item + price} rupees`)
 
-//  Q2. Arithmetic Operators
+// Q2. Arithmetic Operators
 // let a = 20;
 // let b = 6;
-// Alag alag console.log mein print karo: a+b, a-b, a*b, a%b, a**b
+// Separate console.log by printing: a+b, a-b, a*b, a%b, a**b
 let a = 20;
 let b = 6;
 console.log(a + b); // addition
@@ -20,16 +20,16 @@ console.log(a * b); // multiplication
 console.log(a % b); // modulo
 console.log(a ** b); // power operator
 
-// Q3. Comparison — Predict the Output
-// Pehle socho kya aayega, phir run karo:
+// Q3. Comparisons — Predict the output
+// Think about the result first, then run it:
 console.log(10 > 5); // true
 console.log(10 === "10"); // false
 console.log(10 == "10"); //true
 console.log(7 !== 7); // false
 
-// Q4. if Statement
+// Q4. If statement
 // let temperature = 42;
-// Agar temperature 40 se zyada ho toh print karo: "It's too hot!"
+// If the temperature is greater than 40, print: "It's too hot!"
 let temperature = 42;
 if (temperature > 40) {
     console.log("It's too hot!");
@@ -38,9 +38,9 @@ else {
     console.log("Its normal");
 }
 
-// Q5. String — trim & toUpperCase
-// let city = "   mumbai   ";
-// Trim karo aur uppercase mein print karo: "MUMBAI"
+// Q5. String — Trim & ToUpperCase
+// let city = "   Mumbai   ";
+// Trim and print in uppercase: "MUMBAI"
 let city = "   mumbai   ";
 console.log(city.trim().toUpperCase());
 
