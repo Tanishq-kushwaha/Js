@@ -1,14 +1,14 @@
 // Replace method
 let str = "Ilovecoding";
-//  love ko do se replace kar diya 
+// Replaced 'Love' with 'do' 
 str.replace("love", "do");
-// o ko x se replace kar diya lekin sirf pehla o hi change hoga.
+// Replaced 'o' with 'X', but only the first 'o' will change.
 str.replace("o", "x");
 
 
 // repeat method
 let str1 = "papa ji";
-str1.repeat(3); // papa ji 3 bar repeat karaya
+str1.repeat(3); /// Papa ji repeated three times.
 
 // practice Qs
 
@@ -36,13 +36,13 @@ console.log(info[0][0]); // T
 
 // array are mutable
 let fruits = ["mango", "apple", "guava", "pear"];
-fruits[0] = "banana"; // fruits array banate time first index pr replace karne ke liye use kiya output se mango  hatt gya
+ fruits[0] = "banana"; // Used to replace the element at the first index while creating the 'fruits' array; 'Mango' was removed from the output.
 
 fruits[10] = "pineapple"; //(11) ['banana', 'apple', 'guava', 'pear', empty × 6, 'pineapple']
 
 // array method
 let cars = ["audi", "maruti", "toyota", "xuv"];
-// push-> kisi array ke last me jodne ke liye
+// push -> to add to the end of an array
 
 cars.push("Mahindra");
 console.log(cars);
