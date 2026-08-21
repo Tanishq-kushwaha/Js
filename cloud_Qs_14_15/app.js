@@ -186,15 +186,15 @@ if (languages.indexOf("CSS") === -1) {
 else {
     console.log("True");
 }
-// "JavaScript" ka index kya hai?
+// What is the index of "JavaScript"?
 console.log(languages.indexOf("JavaScript"));
-// "Java" included hai?
+// is "java" included?
 
 if (languages.indexOf("Java") === -1) {
-    console.log("Java nahi hai");
+    console.log("It is not Java.");
 }
 else {
-    console.log("Java hai");
+    console.log("it is Java");
 }
 
 
@@ -202,14 +202,15 @@ else {
 
 
 // programming is not a measure of your raw IQ; it is a testament to your
-//  mental resilience and emotional intelligence....... Tanishq kushwaha 
+//  mental resilience and emotional intelligence. 
+//                                                Tanishq kushwaha.
 
 
 
 
 // Q16. Popcorn Price System
 // let size = "M"; // XL=250, L=200, M=100, S=50
-// Sahi price console mein print karo using if-else if.
+// Print the correct price to the console using if-else statements.
 
 let size = "M";
 if (size === "XL") {
