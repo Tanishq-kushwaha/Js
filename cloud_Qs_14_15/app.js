@@ -45,16 +45,16 @@ let city = "   mumbai   ";
 console.log(city.trim().toUpperCase());
 
 // Q6. Array Basics
-// let fruits = ["mango", "apple", "banana", "grape", "litchi"];
-// Print karo:
+// let fruits = ["Mango", "Apple", "Banana", "Grape", "Lychee"];
+// Print:
 
-// Pehla fruit
-// Teesra fruit
-// Array ki total length
+// First fruit
+// Third fruit
+// Total length of the array
 
 let fruits = ["mango", "apple", "banana", "grape", "litchi"];
 console.log(fruits[0]); // first fruit
-console.log(fruits[2]); // teesra fruit
+console.log(fruits[2]); // third fruit
 console.log(fruits.length); // length
 
 // Q7. if-else — Voting
