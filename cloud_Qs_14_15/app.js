@@ -107,8 +107,8 @@ else {
 
 // Q10. Logical OR (||)
 // let color = "black";
-// Agar color "red" ya "black" ho → "Dark color"
-// Warna → "Light color"
+// If color is "red" or "black" → "Dark color"
+// Color → "Light color"
 
 let color = "black";
 if (color === "red" || color === "black") {
@@ -144,8 +144,8 @@ switch (signal) {
 // Q12. String — indexOf & slice
 // let str = "I Love Coding";
 
-// "Love" ka index nikalo
-// Index 7 se aage ka part slice karo → "Coding"
+// find index of "Love" 
+// Slice the part from index 7 onwards → "Coding"
 let str = "I Love Coding";
 console.log(str.indexOf("Love"));
 console.log(str.slice(7));
