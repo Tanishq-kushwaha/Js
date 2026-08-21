@@ -101,7 +101,7 @@ let str = "anshika";
 //  }
 
 
-// switch statement for trafic light system
+// switch statement for traffic light system
 let color1 = "green";
 switch(color1){
     case "red":
@@ -117,7 +117,7 @@ switch(color1){
         console.log("broken light");
 }
 
-// prctice Qs
+// practice Qs
 // Use switch statement to print the day of the week using a number variable "day" with value 1 to 7.
 // 1 = monday , 2 = tuesday & so on 
  
