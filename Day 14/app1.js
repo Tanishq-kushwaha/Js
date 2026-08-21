@@ -7,7 +7,7 @@ let age = 1;
     console.log("You cannot vote")
   }
 
-// trefic light system by if + else if + else
+// traffic light system by if + else if + else
     let color = "red";
 if(color === "red"){
     console.log("stop!");
@@ -19,7 +19,7 @@ else if(color === "green"){
     console.log("Go");
 }
 else{
-    console.log("trafic light is broken");
+    console.log("traffic light is broken");
 }
 
 //  Practice Qs ---> create a system to calculate popcorn prise on the size customer ask for 
@@ -43,7 +43,7 @@ else if (size === "S"){
      console.log("prise is rs 50");
 }
 else{
-    console.log("Plzz choos any one XL , L , M , S")
+    console.log("Please choose any one XL , L , M , S")
 }
 // Nested if else
     let marks = 80;
@@ -58,10 +58,10 @@ if(marks >= 33){
     }
 }
 else{
-    console.log("Try again with Dicipline")
+    console.log("Try again with Discipline")
 }
 
-// Logical oprators 
+// Logical operators 
 // AND (&&)
 let marks1 = 90;
 if(marks >= 33 && marks >= 80){
@@ -69,7 +69,7 @@ if(marks >= 33 && marks >= 80){
     console.log("A+");
 }
 
-// OR oprator (pipe--> ||)
+// OR operator (pipe--> ||)
 console.log(true || true);
 console.log(true || false);
 console.log(false || true);
