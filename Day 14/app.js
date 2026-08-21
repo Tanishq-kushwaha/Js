@@ -1,12 +1,12 @@
 // To write (log) a message on the console
 
-console.log("Cheak java script");
+console.log("Check java script");
 console.log("Tanishq kushwaha");
 console.log(1234);
 console.log(12+12);
 
-// template litrals
-// they are used to add embeded expression in a string 
+// template literals
+// they are used to add embedded expression in a string 
 
 let a = 5;
 let b = 10;
@@ -32,7 +32,7 @@ let firstName = "Tanishq";
     console.log(`welcome ${firstName}`);
   }   
 
-//   create a trafic light system that shows what to do basd on color 
+//   create a traffic light system that shows what to do based on color 
 // red--> stop!
 // yellow--> Go slow!
 // green--> Go!
