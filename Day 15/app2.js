@@ -47,15 +47,15 @@ let cars = ["audi", "maruti", "toyota", "xuv"];
 cars.push("Mahindra");
 console.log(cars);
 
-// Pop-> last waley variable ko dlt karne ke liye
+// Pop-> To delete the last variable
 cars.pop("Mahindra");
 console.log(cars);
 
-// unshift -> statrt me add karne ke liye 
+// unshift -> To add to Start
 cars.unshift("hundai");
 console.log(cars);
 
-// shift -> start se dlt karne ke liye 
+// shift -> To delete from the beginning
 cars.shift("hundai");
 console.log(cars);
 
