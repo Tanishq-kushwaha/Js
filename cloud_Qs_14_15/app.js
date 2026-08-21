@@ -61,7 +61,7 @@ console.log(fruits.length); // length
 // let age = 17;
 
 // 18+ → "You can vote"
-// 18 se kam → "You cannot vote"
+// less then 18 → "You cannot vote"
 let age = 17;
 if (age >= 18) {
     console.log("You can vote");
@@ -93,10 +93,10 @@ else {
 
 // Logical AND (&&)
 // let num = 35;
-// Check karo: num 10 se bada aur 50 se chhota ho
+// Check: num is greater than 10 and less than 50
 
-// Dono sahi → "Number is in range"
-// Warna → "Out of range"
+// Both true → "Number is in range"
+// Otherwise → "Out of range"
 let num = 35;
 if (num > 10 && num < 50) {
     console.log("Number is in range");
